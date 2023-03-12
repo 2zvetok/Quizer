@@ -1945,6 +1945,56 @@ let en_1980_gr = [
 		pack : EN_1980_GR_PACK_4,
 		group : 'Bangles',
 		song : "Eternal Flame"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Salt-N-Pepa',
+		song : "Push It"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Salt-N-Pepa',
+		song : "Shake Your Thang (ft E.U.)"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Salt-N-Pepa',
+		song : "Expression"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Europe',
+		song : "Rock the Night"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Yello',
+		song : "The Race"
+	},
+	{
+		pack : EN_1980_GR_PACK_3,
+		group : 'Yello',
+		song : "Oh Yeah"
+	},
+	{
+		pack : EN_1980_GR_PACK_6,
+		group : 'Videokids',
+		song : "Woodpeckers From Space"
+	},
+	{
+		pack : EN_1980_GR_PACK_6,
+		group : 'Videokids',
+		song : "Do The Rap"
+	},
+	{
+		pack : EN_1980_GR_PACK_6,
+		group : 'Videokids',
+		song : "Communication Outer Space"
+	},
+	{
+		pack : EN_1980_GR_PACK_5,
+		group : 'Technotronic',
+		song : "Get Up (Before The Night Is Over)"
 	}
 ];
 
@@ -2739,6 +2789,11 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_5,
 		group : "Eros Ramazotti",
 		song : "Gloria"
+	},
+	{
+		pack : EN_1980_M_PACK_3,
+		group : "Herbie Hancock",
+		song : "Rockit"
 	}
 ];
 
@@ -2971,6 +3026,11 @@ let en_1980_f = [
 		pack : EN_1980_F_PACK_2,
 		group : "Irene Cara",
 		song : "Fame"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Cyndi Lauper",
+		song : "Girls Just Want to Have Fun"
 	}
 ];
 
@@ -4676,6 +4736,76 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_7,
 			group : "Faithless",
 			song : "God Is a DJ"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Salt-N-Pepa',
+			song : "Let's Talk About Sex"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Salt-N-Pepa',
+			song : "Shoop"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Salt-N-Pepa',
+			song : "Whatta Man"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Wu-Tang Clan',
+			song : "C.R.E.A.M. (Cash Rules Everything Around Me)"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Wu-Tang Clan',
+			song : "Protect Ya Neck"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Wu-Tang Clan',
+			song : "Aint Nuthing ta F' Wit"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Nightcrawlers',
+			song : "Push the Feeling On"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Nightcrawlers',
+			song : "Surrender Your Love"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Nightcrawlers',
+			song : "Don't Let the Feeling Go"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Naughty by Nature',
+			song : "O.O.P"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Naughty by Nature',
+			song : "Hip Hop Hooray"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Deee-Lite',
+			song : "Groove Is in the Heart"
+		},
+		{
+			pack : EN_1990_GR_PACK_2,
+			group : 'Stone Sour',
+			song : "Through Glass"
+		},
+		{
+			pack : EN_1990_GR_PACK_2,
+			group : 'Stone Sour',
+			song : "Bother"
 		}
 ];
 
@@ -5293,6 +5423,16 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_3,
 			group : 'Paul Van Dyk',
 			song : "For an Angel"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Haddaway',
+			song : "Rock My Heart"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'E-Type',
+			song : "Do You Always (Have To Be Alone)"
 		}
 ];
 
@@ -5819,6 +5959,11 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_2,
 			group : 'Gina G',
 			song : "Fresh"
+		},
+		{
+			pack : EN_1990_F_PACK_1,
+			group : 'Mariah Carey',
+			song : "Fantasy (ft Dave Hall)"
 		}
 ];
 
@@ -7038,6 +7183,11 @@ let en_2000_gr = [
 			pack : EN_2000_GR_PACK_6,
 			group : 'OK Go',
 			song : 'Here It Goes Again'
+		},
+		{
+			pack : EN_2000_GR_PACK_3,
+			group : 'Incubus',
+			song : 'Drive'
 		}
 ];
 
@@ -8565,6 +8715,16 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_2,
 			group : "Hilary Duff",
 			song : "Come Clean"
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Selena Gomez",
+			song : "Who Says"
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Kat Deluna",
+			song : "Run the Show"
 		}
 ];
 
@@ -10300,6 +10460,41 @@ let ru_1980_gr = [
 		pack : RU_1980_GR_PACK_4,
 		group : 'ДК',
 		song : "Зиба"
+	},
+	{
+		pack : RU_1980_GR_PACK_1,
+		group : 'Рок-Ателье',
+		song : "Замыкая круг"
+	},
+	{
+		pack : RU_1980_GR_PACK_1,
+		group : 'Анонс',
+		song : "Оля и СПИД"
+	},
+	{
+		pack : RU_1980_GR_PACK_1,
+		group : 'Анонс',
+		song : "Зина — продавец из магазина"
+	},
+	{
+		pack : RU_1980_GR_PACK_4,
+		group : 'Центр',
+		song : "Навсегда"
+	},
+	{
+		pack : RU_1980_GR_PACK_4,
+		group : 'Центр',
+		song : "Алексеев"
+	},
+	{
+		pack : RU_1980_GR_PACK_4,
+		group : 'Центр',
+		song : "Тургеневские женщины"
+	},
+	{
+		pack : RU_1980_GR_PACK_4,
+		group : 'Чёрный Лукич',
+		song : "Мы идём в тишине (ft Егор Летов)"
 	}
 ];
 
@@ -10701,6 +10896,11 @@ let ru_1980_m = [
 		pack : RU_1980_M_PACK_2,
 		group : 'Алексей Вишня',
 		song : "Танцы на битом стекле"
+	},
+	{
+		pack : RU_1980_M_PACK_2,
+		group : 'Александр Айвазов',
+		song : "Лилии"
 	}
 ];
 
@@ -11989,6 +12189,41 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_1,
 			group : 'Турбомода',
 			song : 'Позови'
+		},
+		{
+			pack : RU_1990_GR_PACK_3,
+			group : 'Алиса',
+			song : 'Всё это рок-н-ролл'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : "На-на",
+			song : 'Соловей-разбойник'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : "ДДТ",
+			song : 'Метель'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : "Стрелки",
+			song : 'Красавчик'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : "Кабаре-дуэт «Академия»",
+			song : 'Тома'
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : "Рок-острова",
+			song : 'Сирень'
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Иванушки International',
+			song : 'Малина',
 		}
 ];
 
@@ -12950,6 +13185,16 @@ let ru_1990_m = [
 			pack : RU_1990_M_PACK_2,
 			group : 'Оскар',
 			song : "Паноптикум"
+		},
+		{
+			pack : RU_1980_M_PACK_1,
+			group : 'Александр Айвазов',
+			song : "Бабочка-луна"
+		},
+		{
+			pack : RU_1990_M_PACK_1,
+			group : 'Леонид Агутин',
+			song : 'Ты вернешься когда-нибудь снова'
 		}
 ];
 
@@ -13802,6 +14047,26 @@ let ru_1990_f = [
 			pack : RU_1990_F_PACK_3,
 			group : 'Ани Лорак',
 			song : 'Считалочка'
+		},
+		{
+			pack : RU_1990_F_PACK_3,
+			group : 'Наталия Штурм',
+			song : 'Школьный роман'
+		},
+		{
+			pack : RU_1990_F_PACK_3,
+			group : 'Любовь Успенская',
+			song : 'Любимый'
+		},
+		{
+			pack : RU_1990_F_PACK_1,
+			group : 'Земфира',
+			song : 'Румба'
+		},
+		{
+			pack : RU_1990_F_PACK_2,
+			group : 'Линда',
+			song : 'Белое на белом'
 		}
 ];
 
@@ -15244,6 +15509,11 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_2,
 		group : 'Як-40',
 		song : "Девочка-луна"
+	},
+	{
+		pack : RU_2000_GR_PACK_2,
+		group : 'Рок-Острова',
+		song : "Не любить невозможно"
 	}
 ];
 
@@ -16314,6 +16584,16 @@ let ru_2000_f = [
 		pack : RU_2000_F_PACK_2,
 		group : 'Бьянка',
 		song : "Мулен Руж"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Линда',
+		song : "Беги"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Линда',
+		song : "Любовь в конверте"
 	}
 ];
 
