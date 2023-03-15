@@ -21013,7 +21013,7 @@ function mode(num, album, album_num){
 		year = '2000';
 		gr_package_names = ru_2000_gr_icon;
 		m_package_names = ru_2000_m_icon;
-		m_package_names = ru_2000_f_icon;
+		f_package_names = ru_2000_f_icon;
 		$('#song').hide();
 		if(!alphabetMode){
 			$('.artist').show();
