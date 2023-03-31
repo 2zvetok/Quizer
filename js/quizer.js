@@ -4753,17 +4753,17 @@ let en_1990_gr = [
 			song : "Whatta Man"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_7,
 			group : 'Wu-Tang Clan',
 			song : "C.R.E.A.M. (Cash Rules Everything Around Me)"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_7,
 			group : 'Wu-Tang Clan',
 			song : "Protect Ya Neck"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_7,
 			group : 'Wu-Tang Clan',
 			song : "Aint Nuthing ta F' Wit"
 		},
@@ -4783,12 +4783,12 @@ let en_1990_gr = [
 			song : "Don't Let the Feeling Go"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_7,
 			group : 'Naughty by Nature',
 			song : "O.O.P"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_7,
 			group : 'Naughty by Nature',
 			song : "Hip Hop Hooray"
 		},
@@ -4815,6 +4815,7 @@ let en_1990_gr_3 =	en_1990_gr.filter(item => item.pack == 3);
 let en_1990_gr_4 =	en_1990_gr.filter(item => item.pack == 4);
 let en_1990_gr_5 =	en_1990_gr.filter(item => item.pack == 5);
 let en_1990_gr_6 =	en_1990_gr.filter(item => item.pack == 6);
+let en_1990_gr_7 =	en_1990_gr.filter(item => item.pack == 7);
 
 const en_1990_m_icon = [
 	'easy',
@@ -11130,13 +11131,15 @@ const ru_1990_gr_icon = [
 	'ru_pop_m',
 	'ru_pop_f',
 	'ru_rock_1',
-	'ru_rock_2'
+	'ru_rock_2',
+	'disco'
 ];
 
 const RU_1990_GR_PACK_1 = 1;
 const RU_1990_GR_PACK_2 = 2;
 const RU_1990_GR_PACK_3 = 3;
 const RU_1990_GR_PACK_4 = 4;
+const RU_1990_GR_PACK_5 = 5;
 
 let ru_1990_gr = [
 		{
@@ -11146,7 +11149,7 @@ let ru_1990_gr = [
 			state: ' по Рукам Вверх'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Технология',
 			song : 'Нажми на кнопку',
 			state: ' по Технологии'
@@ -11158,18 +11161,18 @@ let ru_1990_gr = [
 			state: ' по Русскому Размеру'
 		},
 		{
-			pack : RU_1990_GR_PACK_3,
+			pack : RU_1990_GR_PACK_4,
 			group : 'Ногу свело',
 			song : 'Московский романс'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Забытый Разговор',
 			song : 'Арабское золото',
 			state: ' по Забытому Разговору'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Браво',
 			song : 'Любите девушки',
 			state: ' по Браво'
@@ -11182,13 +11185,13 @@ let ru_1990_gr = [
 			shorten: 'Иванушки'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Стелла',
 			song : 'Позови',
 			state: ' по Стелле'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : "A’Studio",
 			song : 'Нелюбимая',
 			state: " по A’Studio"
@@ -11200,12 +11203,12 @@ let ru_1990_gr = [
 			state: " по На-на"
 		},		
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_4,
 			group : 'Океан Эльзы',
 			song : 'Коли тебе нема'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : "Фристайл",
 			song : 'Кораблик любви',
 			state: " по Фристайл"
@@ -11221,19 +11224,19 @@ let ru_1990_gr = [
 			song : 'Я учусь танцевать'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : "Шоколад",
 			song : 'Улыбнись',
 			state: " по Шоколаду"
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : "Арамис",
 			song : 'Девочка ждет, мальчик не идет',
 			state: " по Арамису"
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_4,
 			group : "Божья Коровка",
 			song : 'Гранитный камушек',
 			state: " по Божьей Коровке"
@@ -11256,7 +11259,7 @@ let ru_1990_gr = [
 			state: ' по Рукам Вверх'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Кар-Мэн',
 			song : 'Париж',
 			state: ' по Кар-Мэн'
@@ -11267,7 +11270,7 @@ let ru_1990_gr = [
 			song : 'Девушки бывают разные'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Твой день',
 			song : 'Ху-ан-хэ – жёлтая река'
 		},
@@ -11289,7 +11292,7 @@ let ru_1990_gr = [
 			song : 'Турболюбовь'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Электронный мальчик',
 			song : 'Видеосалон',
 			state: ' по Электронному мальчику'
@@ -11305,46 +11308,46 @@ let ru_1990_gr = [
 			song : 'Пионер'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Электронный мальчик',
 			song : 'Дитер Болен Не Курит',
 			state: ' по Электронному мальчику'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Технология',
 			song : 'Странные танцы',
 			state: ' по Технологии'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Технология',
 			song : 'Всё, что ты хочешь',
 			state: ' по Технологии'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Технология',
 			song : 'Полчаса',
 			state: ' по Технологии'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Комиссар',
 			song : 'Дрянь'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Комиссар',
 			song : 'Ты уйдёшь'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Комиссар',
 			song : 'Я тебе объявляю войну'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Комиссар',
 			song : 'Адреналин'
 		},
@@ -11369,32 +11372,32 @@ let ru_1990_gr = [
 			song : 'Новый год'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Браво',
 			song : 'Девчонка 16 лет'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Браво',
 			song : 'Вася'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Браво',
 			song : 'Московский бит'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Браво',
 			song : 'Чёрный кот'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Браво',
 			song : 'Этот город'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : 'Браво',
 			song : '20-й век'
 		},
@@ -11429,12 +11432,12 @@ let ru_1990_gr = [
 			song : 'Последний раз'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : "Фристайл",
 			song : 'Ах, какая женщина...'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_5,
 			group : "A’Studio",
 			song : 'Солдат любви'
 		},
@@ -12081,17 +12084,17 @@ let ru_1990_gr = [
 			song : 'Чёрная луна'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_4,
 			group : 'Господин Дадуда',
 			song : 'Даду Внедреж'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_4,
 			group : 'Bad Balance',
 			song : 'Город джунглей'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_4,
 			group : 'Bad Balance',
 			song : 'Дети Сатаны'
 		},
@@ -12146,7 +12149,7 @@ let ru_1990_gr = [
 			song : 'Давай, Авария!'
 		},
 		{
-			pack : RU_1990_GR_PACK_1,
+			pack : RU_1990_GR_PACK_4,
 			group : 'Кирпичи',
 			song : 'Плюю я'
 		},
@@ -12231,6 +12234,7 @@ let ru_1990_gr_1 =	ru_1990_gr.filter(item => item.pack == 1);
 let ru_1990_gr_2 =	ru_1990_gr.filter(item => item.pack == 2);
 let ru_1990_gr_3 =	ru_1990_gr.filter(item => item.pack == 3);
 let ru_1990_gr_4 =	ru_1990_gr.filter(item => item.pack == 4);
+let ru_1990_gr_5 =	ru_1990_gr.filter(item => item.pack == 5);
 
 const ru_1990_m_icon = [
 	'easy',
@@ -12407,7 +12411,7 @@ let ru_1990_m = [
 			song : 'Всё для тебя'
 		},
 		{
-			pack : RU_1990_M_PACK_2,
+			pack : RU_1990_M_PACK_1,
 			group : 'Александр Серов',
 			song : 'Я люблю тебя до слёз'
 		},
@@ -19965,15 +19969,23 @@ let music = [
 		packs: [
 				{
 					arr: en_1980_m_1,
-					name: 'EN 1980s Male: Pop',
+					name: 'EN 1980s Male: Easy',
 				},
 				{
 					arr: en_1980_m_2,
-					name: 'EN 1980s Male: Disco',
+					name: 'EN 1980s Male: Medium',
 				},
 				{
 					arr: en_1980_m_3,
-					name: 'EN 1980s Male: Rock',
+					name: 'EN 1980s Male: Hard',
+				},
+				{
+					arr: en_1980_m_4,
+					name: 'EN 1980s Male: Disco',
+				},
+				{
+					arr: en_1980_m_5,
+					name: 'EN 1980s Male: Italodisco',
 				}
 			]
 	},
@@ -20017,10 +20029,14 @@ let music = [
 				},
 				{
 					arr: en_1990_gr_5,
-					name: "EN 1990s Groups: Women's Vocals",
+					name: "EN 1990s Groups: Pop Very Hard",
 				},
 				{
 					arr: en_1990_gr_6,
+					name: "EN 1990s Groups: Women's Vocals",
+				},
+				{
+					arr: en_1990_gr_7,
 					name: 'EN 1990s Groups: Eurodance',
 				}
 			]
@@ -20164,7 +20180,11 @@ let music = [
 		type: 'm',
 		packs: [
 				{
-					arr: ru_1980_m,
+					arr: ru_1980_m_1,
+					name: 'RU 1980s Male: Easy',
+				},
+				{
+					arr: ru_1980_m_2,
 					name: 'RU 1980s Male: Medium',
 				}
 			]
@@ -20202,6 +20222,10 @@ let music = [
 				{
 					arr: ru_1990_gr_4,
 					name: 'RU 1990s Groups: Rock#2',
+				},
+				{
+					arr: ru_1990_gr_5,
+					name: 'RU 1990s Groups: Disco',
 				}
 			]
 	},
@@ -20253,19 +20277,19 @@ let music = [
 		packs: [
 				{
 					arr: ru_2000_gr_1,
-					name: 'RU 2000s Groups: Pop Men',
+					name: 'RU 2000s Groups: Rock',
 				},
 				{
 					arr: ru_2000_gr_2,
-					name: 'RU 2000s Groups: Pop Women Medium#1',
+					name: 'RU 2000s Groups: Pop Men',
 				},
 				{
 					arr: ru_2000_gr_3,
-					name: 'RU 2000s Groups: Pop Women Medium#2',
+					name: 'RU 2000s Groups: Pop Women Medium#1',
 				},
 				{
 					arr: ru_2000_gr_4,
-					name: 'RU 2000s Groups: Rock',
+					name: 'RU 2000s Groups: Pop Women Medium#2',
 				}
 			]
 	},
@@ -20605,10 +20629,12 @@ function ru(){
 function hide_navi_icons(){
 	$('#wheel').hide();
 	$('#map').hide();
-	$('#sec_15').show();
 	$('#ru').hide();
 	$('#en').hide();
 	$('.settings').hide();
+	
+	$('#sec_15').show();
+	$('#back').show();
 }
 
 function group(){
@@ -20791,8 +20817,13 @@ function generateSongIds(arr){
 	return arr;
 }
 
-function back_to_mode(){
+function back_to_main(){
 	$('#back').hide();
+	window.location.reload();
+}
+
+function back_to_mode(){
+	back = back_to_main;
 	$('.artist').hide();
 	if(lang == 'ru'){
 		$('.ru').show();
@@ -20800,9 +20831,9 @@ function back_to_mode(){
 		$('.en').show();
 	}
 	$('#mirror').show();
-	gr_package_names = ['', '', '', '', ''];
-    m_package_names = ['', '', '', '', ''];
-    f_package_names = ['', '', '', '', ''];
+	gr_package_names = [];
+    m_package_names = [];
+    f_package_names = [];
 	f_packages = 1;
 	m_packages = 1;
 	gr_packages = 1;
@@ -20829,13 +20860,14 @@ function back_to_packages(){
 	}
 }
 
-let back = back_to_mode;
+let back = back_to_main;
 let expressMode = false;
 		
 function mode(num, album, album_num){
 	$('.mode').hide();
 	$('#mirror').hide();
 	$('#back').show();
+	back = back_to_mode;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
