@@ -11161,7 +11161,7 @@ let ru_1990_gr = [
 			state: ' по Русскому Размеру'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_3,
 			group : 'Ногу свело',
 			song : 'Московский романс'
 		},
@@ -12219,7 +12219,7 @@ let ru_1990_gr = [
 			song : 'Тома'
 		},
 		{
-			pack : RU_1990_GR_PACK_2,
+			pack : RU_1990_GR_PACK_1,
 			group : "Рок-острова",
 			song : 'Сирень'
 		},
@@ -12227,6 +12227,11 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_1,
 			group : 'Иванушки International',
 			song : 'Малина',
+		},
+		{
+			pack : RU_1990_GR_PACK_2,
+			group : "Лицей",
+			song : 'Красная помада'
 		}
 ];
 
