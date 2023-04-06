@@ -1537,12 +1537,12 @@ let en_1980_gr = [
 		song : "Let's Groove"
 	},
 	{
-		pack : EN_1980_GR_PACK_4,
+		pack : EN_1980_GR_PACK_3,
 		group : "Europe",
 		song : "The Final Countdown"
 	},
 	{
-		pack : EN_1980_GR_PACK_4,
+		pack : EN_1980_GR_PACK_3,
 		group : "Europe",
 		song : "Carrie"
 	},
@@ -2729,11 +2729,6 @@ let en_1980_m = [
 		pack : EN_1980_M_PACK_5,
 		group : "Riccardo Fogli",
 		song : "Malinconia"
-	},
-	{
-		pack : EN_1980_M_PACK_5,
-		group : "Riccardo Fogli",
-		song : "Storie di tutti i giorni"
 	},
 	{
 		pack : EN_1980_M_PACK_5,
