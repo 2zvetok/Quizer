@@ -1995,6 +1995,16 @@ let en_1980_gr = [
 		pack : EN_1980_GR_PACK_5,
 		group : 'Technotronic',
 		song : "Get Up (Before The Night Is Over)"
+	},
+	{
+		pack : EN_1980_GR_PACK_6,
+		group : "Laid back",
+		song : "White Horse"
+	},
+	{
+		pack : EN_1980_GR_PACK_6,
+		group : "Laid back",
+		song : "High Society Girl"
 	}
 ];
 
@@ -10902,6 +10912,21 @@ let ru_1980_m = [
 		pack : RU_1980_M_PACK_2,
 		group : 'Александр Айвазов',
 		song : "Лилии"
+	},
+	{
+		pack : RU_1980_M_PACK_2,
+		group : 'Александр Барыкин',
+		song : "20:00"
+	},
+	{
+		pack : RU_1980_M_PACK_2,
+		group : 'Александр Барыкин',
+		song : "Чудо-остров"
+	},
+	{
+		pack : RU_1980_M_PACK_2,
+		group : 'Александр Барыкин',
+		song : "Аэропорт"
 	}
 ];
 
@@ -12227,11 +12252,6 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_1,
 			group : 'Иванушки International',
 			song : 'Малина',
-		},
-		{
-			pack : RU_1990_GR_PACK_2,
-			group : "Лицей",
-			song : 'Красная помада'
 		}
 ];
 
@@ -13204,6 +13224,11 @@ let ru_1990_m = [
 			pack : RU_1990_M_PACK_1,
 			group : 'Леонид Агутин',
 			song : 'Ты вернешься когда-нибудь снова'
+		},
+		{
+			pack : RU_1980_M_PACK_2,
+			group : 'Александр Барыкин',
+			song : "За той рекой"
 		}
 ];
 
