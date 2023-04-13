@@ -4811,6 +4811,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_2,
 			group : 'Stone Sour',
 			song : "Bother"
+		},
+		{
+			pack : EN_1990_GR_PACK_7,
+			group : 'Daze',
+			song : "Together forever"
 		}
 ];
 
@@ -9726,6 +9731,52 @@ let en_2020 = [
 	}
 ];
 
+const EN_METAL_GR_PACK_1 = 1;
+
+let en_metal_gr = [
+		{
+			pack : EN_METAL_GR_PACK_1,
+			group : 'Cinderella',
+			song : "Nobody's Fool (1986)"
+		},
+		{
+			pack : EN_METAL_GR_PACK_1,
+			group : 'Cinderella',
+			song : "Somebody Save Me (1987)"
+		},
+		{
+			pack : EN_METAL_GR_PACK_1,
+			group : 'Motley Crue',
+			song : "Kickstart My Heart (1989)"
+		},
+		{
+			pack : EN_METAL_GR_PACK_1,
+			group : 'Motley Crue',
+			song : "Girls, Girls, Girls (1987)"
+		},
+		{
+			pack : EN_METAL_GR_PACK_1,
+			group : 'Bon Jovi',
+			song : "Livin' on a Prayer (1986)"
+		},
+		{
+			pack : EN_METAL_GR_PACK_1,
+			group : 'Bon Jovi',
+			song : "You Give Love a Bad Name (1986)"
+		},
+		{
+			pack : EN_METAL_GR_PACK_1,
+			group : 'Guns N Roses',
+			song : "Sweet Child o' Mine (1988)"
+		},
+		{
+			pack : EN_METAL_GR_PACK_1,
+			group : 'Guns N Roses',
+			song : "Welcome to the Jungle (1987)"
+		}
+];
+
+let en_metal_gr_1 =	en_metal_gr.filter(item => item.pack == 1);
 
 // RU songs
 
@@ -17449,6 +17500,172 @@ let ru_2020 = [
 	}
 ];
 
+const RU_METAL_GR_PACK_1 = 1;
+
+let ru_metal_gr = [
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Ария',
+			song : "Осколок льда (2001)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Ария',
+			song : "Беспечный ангел (2001)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Кипелов',
+			song : "Я свободен (1997)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Кипелов',
+			song : "Я здесь (2005)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Коррозия металла',
+			song : "Russian Vodka (1993)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Коррозия металла',
+			song : "Чёрный террор (1991)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Черный Обелиск',
+			song : "Бей (2018)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Черный Обелиск',
+			song : "Я остаюсь (2018)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Мастер',
+			song : "Кресты (2001)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Мастер',
+			song : "Кто кого? (1987)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Август',
+			song : "Осень (1987)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Август',
+			song : "Август (1986)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Catharsis',
+			song : "Крылья (2005)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Catharsis',
+			song : "A Trip Into Elysium (2001)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Банда четырёх',
+			song : "Любовь - это власть (1997)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Банда четырёх',
+			song : "Резервация здесь (1995)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Слот',
+			song : "Круги на воде (2016)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Слот',
+			song : "Мёртвые звёзды (2007)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Аркона',
+			song : "Ярило (2013)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Аркона',
+			song : "Стенка на стенку (2011)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Эпидемия',
+			song : "Всадник из льда (2011)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Эпидемия',
+			song : "Выбор есть! (2018)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Грай',
+			song : "В объятиях Мары (2014)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Грай',
+			song : "Млада (2014)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Калевала',
+			song : "Улетай на крыльях ветра (2010)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Калевала',
+			song : "Ловец змей (2023)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Легион',
+			song : "Птица (2013)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Легион',
+			song : "Сон, в котором не было солнца (2007)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Лютомысл',
+			song : "Вавилон (2012)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Лютомысл',
+			song : "Исповедь (2012)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Гран-КуражЪ',
+			song : "Скоморох (2023)"
+		},
+		{
+			pack : RU_METAL_GR_PACK_1,
+			group : 'Гран-КуражЪ',
+			song : "Бессмертна ложь (2021)"
+		}
+];
+
+let ru_metal_gr_1 =	ru_metal_gr.filter(item => item.pack == 1);
 
 // Other formats
 
@@ -20417,6 +20634,15 @@ function generateSongIdsByPaths(arr, audioPath, imgPath){
 	return arr;
 }
 
+function generateSongIdsImgGroup(arr, audioPath, imgPath){
+	for(var i=1; i <= arr.length; i++){
+		arr[i-1].id = 'Song (' + i + ')';
+		arr[i-1].audioPath = audioPath + 'Song (' + i + ')';
+		arr[i-1].imgPath = imgPath + arr[i-1].group;
+	}
+	return arr;
+}
+
 function map_songs_format(arr){
 	let h2_start = `<h2>`;
 	let h2_end = `</h2>`;
@@ -21002,6 +21228,20 @@ function mode(num, album, album_num){
 		finalMessage = ' Ура! Вы освоили "Дискотеку 2020-х"!';
 	}
 	
+	// Metal
+	if (num === 'metal'){
+		$('#back').hide();
+		year = 'metal';
+		sec_per_turn = 40;
+		$('#learn').html('Угадай метал-группу!');
+		songs = generateSongIdsImgGroup(en_metal_gr, 'audio/en/metal/', 'img/en/metal/');
+		shuffle(songs);
+		answers = songs.map(item=>item.group);
+		finalMessage = ' Ура! Вы освоили "Метал"!';
+		$('#total').html(songs.length);
+		showGroupNames();
+	}
+	
 	// RU
 	// До 1980
 	if(num == 14){
@@ -21166,6 +21406,20 @@ function mode(num, album, album_num){
 		$('.submode').hide();
 		expressMode = true;
 		$('.kish_minus').show();
+	}
+	
+	// Русский металл
+	if (num === 'ru_metal'){
+		$('#back').hide();
+		year = 'ru_metal';
+		sec_per_turn = 40;
+		$('#learn').html('Угадай русскую метал-группу!');
+		songs = generateSongIdsImgGroup(ru_metal_gr, 'audio/ru/metal/', 'img/ru/metal/');
+		shuffle(songs);
+		answers = songs.map(item=>item.group);
+		finalMessage = ' Ура! Вы освоили "Русский Металл"!';
+		$('#total').html(songs.length);
+		showGroupNames();
 	}
 	
 	// Media
