@@ -7253,6 +7253,11 @@ let en_2000_gr = [
 			pack : EN_2000_GR_PACK_3,
 			group : 'Incubus',
 			song : 'Drive'
+		},
+		{
+			pack : EN_2000_GR_PACK_4,
+			group : 'Benefit',
+			song : "Sex Sells"
 		}
 ];
 
