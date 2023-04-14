@@ -3045,20 +3045,24 @@ let en_1980_f_2 =	en_1980_f.filter(item => item.pack == 2);
 const en_1990_gr_icon = [
 	'rock_medium',
 	'rock_hard',
+	'rock_very_hard',
 	'pop_medium',
 	'pop_hard',
 	'pop_very_hard',
 	'womens_vocals',
+	'womens_vocals_2',
 	'eurodance'
 ];
 
 const EN_1990_GR_PACK_1 = 1;
 const EN_1990_GR_PACK_2 = 2;
-const EN_1990_GR_PACK_3 = 3;
-const EN_1990_GR_PACK_4 = 4;
-const EN_1990_GR_PACK_5 = 6;
-const EN_1990_GR_PACK_6 = 7;
-const EN_1990_GR_PACK_7 = 5;
+const EN_1990_GR_PACK_3 = 4;
+const EN_1990_GR_PACK_4 = 5;
+const EN_1990_GR_PACK_5 = 7;
+const EN_1990_GR_PACK_6 = 9;
+const EN_1990_GR_PACK_7 = 6;
+const EN_1990_GR_PACK_8 = 3;
+const EN_1990_GR_PACK_9 = 8;
 
 let en_1990_gr = [
 		{
@@ -3437,27 +3441,27 @@ let en_1990_gr = [
 			song : "Beautiful Day"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
 			song : "Dammit"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
 			song : "What's My Age Again?"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
 			song : "All The Small Things"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
 			song : "Adam's Song"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
 			song : "Man Overboard"
 		},
@@ -3477,7 +3481,7 @@ let en_1990_gr = [
 			song : "Tubthumping"
 		},	
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Soundgarden',
 			song : "Black Hole Sun"
 		},
@@ -3497,14 +3501,15 @@ let en_1990_gr = [
 			song : "Slide"
 		},	
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Soundgarden',
 			song : "Spoonman"
 		},	
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Soundgarden',
-			song : "Fell On Black Days"
+			song : "Fell On Black Days",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
@@ -3547,12 +3552,12 @@ let en_1990_gr = [
 			song : "Pincushion"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Massive Attack',
 			song : "Unfinished Sympathy"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Massive Attack',
 			song : "Teardrop"
 		},
@@ -3950,22 +3955,26 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cranberries',
-			song : "Zombie"
+			song : "Zombie",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cranberries',
-			song : "Dreams"
+			song : "Dreams",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cranberries',
-			song : "Linger"
+			song : "Linger",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cranberries',
-			song : "Ode To My Family"
+			song : "Ode To My Family",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
@@ -4448,79 +4457,64 @@ let en_1990_gr = [
 			song : "Tribal Dance"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Portishead',
-			song : "Numb"
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Portishead',
 			song : "Sour Times"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Portishead',
 			song : "Glory Box"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Portishead',
-			song : "All Mine"
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Portishead',
-			song : "Over"
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
-			group : 'Portishead',
-			song : "Only You"
-		},
-		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'L7',
 			song : "Drama"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'L7',
 			song : "Off the Wagon"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
 			song : "Open Your Eyes"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
-			song : "Rain"
+			song : "Rain",
+			ignore: true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
 			song : "Lords Of The Boards"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
-			song : "Don't You Turn Your Back On Me"
+			song : "Don't You Turn Your Back On Me",
+			ignore: true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
-			song : "Big in Japan"
+			song : "Big in Japan",
+			ignore: true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
-			song : "No Speech"
+			song : "No Speech",
+			ignore: true
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
-			song : "Living in a Lie"
+			song : "Living in a Lie",
+			ignore: true
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -4643,34 +4637,36 @@ let en_1990_gr = [
 			song : "I want it that way"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Pearl Jam',
 			song : "Alive"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Pearl Jam',
 			song : "Jeremy"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Pearl Jam',
-			song : "Black"
+			song : "Black",
+			ignore: true
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Alice In Chains',
 			song : "Would?"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Alice In Chains',
 			song : "Man in the Box"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Alice In Chains',
-			song : "Down in a Hole"
+			song : "Down in a Hole",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -4718,12 +4714,12 @@ let en_1990_gr = [
 			song : "Someday We’ll Know"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : "Semisonic",
 			song : "Singing in My Sleep"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : "Semisonic",
 			song : "Secret Smile"
 		},
@@ -4743,17 +4739,17 @@ let en_1990_gr = [
 			song : "God Is a DJ"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Salt-N-Pepa',
 			song : "Let's Talk About Sex"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Salt-N-Pepa',
 			song : "Shoop"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Salt-N-Pepa',
 			song : "Whatta Man"
 		},
@@ -4773,19 +4769,20 @@ let en_1990_gr = [
 			song : "Aint Nuthing ta F' Wit"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Nightcrawlers',
 			song : "Push the Feeling On"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Nightcrawlers',
 			song : "Surrender Your Love"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Nightcrawlers',
-			song : "Don't Let the Feeling Go"
+			song : "Don't Let the Feeling Go",
+			ignore: true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
@@ -4798,17 +4795,17 @@ let en_1990_gr = [
 			song : "Hip Hop Hooray"
 		},
 		{
-			pack : EN_1990_GR_PACK_5,
+			pack : EN_1990_GR_PACK_9,
 			group : 'Deee-Lite',
 			song : "Groove Is in the Heart"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Stone Sour',
 			song : "Through Glass"
 		},
 		{
-			pack : EN_1990_GR_PACK_2,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Stone Sour',
 			song : "Bother"
 		},
@@ -4816,6 +4813,31 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_7,
 			group : 'Daze',
 			song : "Together forever"
+		},
+		{
+			pack : EN_1990_GR_PACK_4,
+			group : 'Duran Duran',
+			song : "Wild boys"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Army of Lovers',
+			song : "Crucify"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Army of Lovers',
+			song : "Sexual Revolution"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Army of Lovers',
+			song : "Obsession"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Army of Lovers',
+			song : "La Plage De Saint Tropez"
 		}
 ];
 
@@ -4826,6 +4848,8 @@ let en_1990_gr_4 =	en_1990_gr.filter(item => item.pack == 4);
 let en_1990_gr_5 =	en_1990_gr.filter(item => item.pack == 5);
 let en_1990_gr_6 =	en_1990_gr.filter(item => item.pack == 6);
 let en_1990_gr_7 =	en_1990_gr.filter(item => item.pack == 7);
+let en_1990_gr_8 =	en_1990_gr.filter(item => item.pack == 8);
+let en_1990_gr_9 =	en_1990_gr.filter(item => item.pack == 9);
 
 const en_1990_m_icon = [
 	'easy',
@@ -20980,7 +21004,7 @@ function setPaths(artist_type, package_num, genre){
 
 function setPathsByPack(num){
 	let arr = generateSongIds(eval(lang + '_' + year + '_' + artist_type));
-	songs = arr.filter(song => song.pack == num);
+	songs = arr.filter(song => song.pack == num && !song.ignore);
 	songs.forEach(song => {
 		song.audioPath = 'audio/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
 		song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
