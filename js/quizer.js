@@ -4838,6 +4838,36 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_5,
 			group : 'Army of Lovers',
 			song : "La Plage De Saint Tropez"
+		},
+		{
+			pack : EN_1990_GR_PACK_7,
+			group : 'East 17',
+			song : "House of Love"
+		},
+		{
+			pack : EN_1990_GR_PACK_7,
+			group : 'East 17',
+			song : "Thunder"
+		},
+		{
+			pack : EN_1990_GR_PACK_7,
+			group : 'East 17',
+			song : "Let It Rain"
+		},
+		{
+			pack : EN_1990_GR_PACK_7,
+			group : 'East 17',
+			song : "It's Alright"
+		},
+		{
+			pack : EN_1990_GR_PACK_5,
+			group : 'Spice Girls',
+			song : "Two Become One"
+		},	
+		{
+			pack : EN_1990_GR_PACK_4,
+			group : 'Kind of Blue',
+			song : "Bitter Blue"
 		}
 ];
 
