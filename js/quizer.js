@@ -3068,442 +3068,445 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Hole In My Soul"
+			song : "Hole In My Soul (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Pink"
+			song : "Pink (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Walk This Way"
+			song : "Walk This Way (1975)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Longview"
+			song : "Longview (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Basket Case"
+			song : "Basket Case (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "When I Come Around"
+			song : "When I Come Around (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "J.A.R."
+			song : "J.A.R. (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Brain Stew"
+			song : "Brain Stew (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Good Riddance"
+			song : "Good Riddance (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Redundant"
+			song : "Redundant (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Minority"
+			song : "Minority (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Warning"
+			song : "Warning (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Hitchin' A Ride"
+			song : "Hitchin' A Ride (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Why Don't You Get A Job"
+			song : "Why Don't You Get A Job (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "The Kids Aren't Alright"
+			song : "The Kids Aren't Alright (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Original Prankster"
+			song : "Original Prankster (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Come Out and Play"
+			song : "Come Out and Play (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Self Esteem"
+			song : "Self Esteem (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "All I Want"
+			song : "All I Want (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Gone Away"
+			song : "Gone Away (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Pretty Fly"
+			song : "Pretty Fly (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "You Could Be Mine"
+			song : "You Could Be Mine (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "Don't Cry"
+			song : "Don't Cry (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "November Rain"
+			song : "November Rain (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "Knockin' On Heaven's Door"
+			song : "Knockin' On Heaven's Door (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "Sympathy For The Devil"
+			song : "Sympathy For The Devil (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
-			song : "Thunderstuck"
+			song : "Thunderstuck (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
-			song : "Moneytalks"
+			song : "Moneytalks (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
-			song : "Are You Ready"
+			song : "Are You Ready (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
-			song : "Highway to Hell"
+			song : "Highway to Hell (1979)",
+			ignore: true
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
-			song : "Big Gun"
+			song : "Big Gun (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
-			song : "Hard as a Rock"
+			song : "Hard as a Rock (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "Give It Away"
+			song : "Give It Away (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "Under The Bridge"
+			song : "Under The Bridge (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "Soul To Squeeze"
+			song : "Soul To Squeeze (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "Warped"
+			song : "Warped (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "My Friends"
+			song : "My Friends (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "Scar Tissue"
+			song : "Scar Tissue (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "Otherside"
+			song : "Otherside (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "Californication"
+			song : "Californication (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Red Hot Chili Peppers',
-			song : "Road Trippin'"
+			song : "Road Trippin' (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "I Don't Want to Miss a Thing"
+			song : "I Don't Want to Miss a Thing (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Livin' on the Edge"
+			song : "Livin' on the Edge (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Eat The Rich"
+			song : "Eat The Rich (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Cryin'"
+			song : "Cryin' (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Crazy"
+			song : "Crazy (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Amazing"
+			song : "Amazing (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Falling In Love"
+			song : "Falling In Love (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'REM',
-			song : "Loosing My Religion"
+			song : "Loosing My Religion (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'REM',
-			song : "Everybody Hurts"
+			song : "Everybody Hurts (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'REM',
-			song : "Shiny Happy People"
+			song : "Shiny Happy People (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Oasis',
-			song : "Wonderwall"
+			song : "Wonderwall (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Oasis',
-			song : "D'You Know What I Mean?"
+			song : "D'You Know What I Mean? (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Oasis',
-			song : "Don't Look Back In Anger"
+			song : "Don't Look Back In Anger (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Oasis',
-			song : "Champagne Supernova"
+			song : "Champagne Supernova (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Oasis',
-			song : "Live Forever"
+			song : "Live Forever (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
-			song : "Blaze Of Glory"
+			song : "Blaze Of Glory (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
-			song : "Always"
+			song : "Always (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
-			song : "Bed Of Roses"
+			song : "Bed Of Roses (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "One"
+			song : "One (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "I Think I'm Paranoid"
+			song : "I Think I'm Paranoid (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "Only Happy When It Rains"
+			song : "Only Happy When It Rains (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "#1 Crush"
+			song : "#1 Crush (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "Push It"
+			song : "Push It (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "You Look So Fine"
+			song : "You Look So Fine (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Garbage',
-			song : "Stupid Girl"
+			song : "Stupid Girl (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "The Fly"
+			song : "The Fly (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "Mysterious Ways"
+			song : "Mysterious Ways (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "Even Better Than The Real Thing"
+			song : "Even Better Than The Real Thing (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "Stay (Faraway, So Close!)"
+			song : "Stay (Faraway, So Close!) (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "Hold Me, Thrill Me, Kiss Me, Kill Me"
+			song : "Hold Me, Thrill Me, Kiss Me, Kill Me (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "Discotheque"
+			song : "Discotheque (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "Staring At The Sun"
+			song : "Staring At The Sun (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "Sweetest Thing"
+			song : "Sweetest Thing (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'U2',
-			song : "Beautiful Day"
+			song : "Beautiful Day (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "Dammit"
+			song : "Dammit (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "What's My Age Again?"
+			song : "What's My Age Again? (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "All The Small Things"
+			song : "All The Small Things (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "Adam's Song"
+			song : "Adam's Song (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Blink 182',
-			song : "Man Overboard"
+			song : "Man Overboard (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'REM',
-			song : "Man On The Moon"
+			song : "Man On The Moon (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Queen',
-			song : "Made In Heaven"
+			song : "Made In Heaven (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Chumbawamba',
-			song : "Tubthumping"
+			song : "Tubthumping (1997)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Soundgarden',
-			song : "Black Hole Sun"
+			song : "Black Hole Sun (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Nazareth',
-			song : "Cocaine"
+			song : "Cocaine (1981)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Goo Goo Dolls',
-			song : "Iris"
+			song : "Iris (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Goo Goo Dolls',
-			song : "Slide"
+			song : "Slide (1998)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Soundgarden',
-			song : "Spoonman"
+			song : "Spoonman (1994)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_8,
@@ -3514,253 +3517,253 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'REM',
-			song : "Drive"
+			song : "Drive (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Urge Overkill',
-			song : "Girl, You'll Be A Woman Soon"
+			song : "Girl, You'll Be A Woman Soon (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
-			song : "My Head's In Mississippi"
+			song : "My Head's In Mississippi (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
-			song : "Doubleback"
+			song : "Doubleback (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
-			song : "Concrete And Steel"
+			song : "Concrete And Steel (2003)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
-			song : "Give It Up"
+			song : "Give It Up (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
-			song : "Viva Las Vegas"
+			song : "Viva Las Vegas (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'ZZ Top',
-			song : "Pincushion"
+			song : "Pincushion (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Massive Attack',
-			song : "Unfinished Sympathy"
+			song : "Unfinished Sympathy (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Massive Attack',
-			song : "Teardrop"
+			song : "Teardrop (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Cypress Hill',
-			song : "Insane In The Brain"
+			song : "Insane In The Brain (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Cypress Hill',
-			song : "Hits from the Bong"
+			song : "Hits from the Bong (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Cypress Hill',
-			song : "How I Could Just Kill a Man"
+			song : "How I Could Just Kill a Man (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Cypress Hill',
-			song : "Tequila Sunrise"
+			song : "Tequila Sunrise (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Cypress Hill',
-			song : "I Wanna Get High"
+			song : "I Wanna Get High (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Suicide Blonde"
+			song : "Suicide Blonde (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Disappear"
+			song : "Disappear (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "By My Side"
+			song : "By My Side (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Bitter Tears"
+			song : "Bitter Tears (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Shining Star"
+			song : "Shining Star (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Taste It"
+			song : "Taste It (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "All Around"
+			song : "All Around (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Baby Dont Cry"
+			song : "Baby Dont Cry (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "The Strangest Party"
+			song : "The Strangest Party (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Deliver Me"
+			song : "Deliver Me (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Foo Fighters',
-			song : "Monkey Wrench"
+			song : "Monkey Wrench (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Foo Fighters',
-			song : "Everlong"
+			song : "Everlong (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Jamiroquai',
-			song : "Virtual Insanity"
+			song : "Virtual Insanity (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Moloko',
-			song : "Sing in Back"
+			song : "Sing in Back (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Beloved',
-			song : 'Sweet harmony',
-			state: ' по Белавд'
+			song : 'Sweet harmony (1993)'
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Fugees',
-			song : "Killing Me Softly"
+			song : "Killing Me Softly (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Kriss Kross',
-			song : "Jump"
+			song : "Jump (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Reamonn',
-			song : "Supergirl"
+			song : "Supergirl (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Extreme',
-			song : "More Than Words"
+			song : "More Than Words (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Fools Garden',
-			song : "Lemon Tree"
+			song : "Lemon Tree (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Duran Duran',
-			song : "Ordinary World"
+			song : "Ordinary World (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Duran Duran',
-			song : "Come Undone"
+			song : "Come Undone (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Texas',
-			song : "Summer Son"
+			song : "Summer Son (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'UB40',
-			song : "I Can't Help Falling In Love With You"
+			song : "I Can't Help Falling In Love With You (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'No Mercy',
-			song : "Where Do You Go"
+			song : "Where Do You Go (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Wet Wet Wet',
-			song : "Love Is All Around"
+			song : "Love Is All Around (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Tears For Fears',
-			song : "Break It Down Again"
+			song : "Break It Down Again (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Fugees',
-			song : "Ready Or Not"
+			song : "Ready Or Not (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Fools Garden',
-			song : "Probably"
+			song : "Probably (1997)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'TLC',
-			song : "No Scrubs"
+			song : "No Scrubs (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Ten Sharp',
-			song : "You"
+			song : "You (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Soul Asylum',
-			song : "Runaway Train"
+			song : "Runaway Train (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Boyz II Men',
-			song : "I'll Make Love To You"
+			song : "I'll Make Love To You (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Boyz II Men',
-			song : "End Of The Road"
+			song : "End Of The Road (1992)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'TLC',
-			song : "Waterfalls"
+			song : "Waterfalls (1995)"
 		},		
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -4868,6 +4871,11 @@ let en_1990_gr = [
 			pack : EN_1990_GR_PACK_4,
 			group : 'Kind of Blue',
 			song : "Bitter Blue"
+		},	
+		{
+			pack : EN_1990_GR_PACK_7,
+			group : 'Chemical Brothers',
+			song : "Hey Boy Hey Girl (1999)"
 		}
 ];
 
