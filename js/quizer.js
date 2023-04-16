@@ -3768,192 +3768,193 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Mike + The Mechanics',
-			song : "Over My Shoulder"
+			song : "Over My Shoulder (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Mike + The Mechanics',
-			song : "Another Cup of Coffee"
+			song : "Another Cup of Coffee (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Hanson',
-			song : "MMMBop"
+			song : "MMMBop (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'White Town',
-			song : "Your Woman"
+			song : "Your Woman (1997)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : '4 Non Blondes',
-			song : "What's Up?"
+			song : "What's Up? (1992)"
 		},		
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Touch & Go',
-			song : "Would You...?"
+			song : "Would You...? (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Touch & Go',
-			song : "Tango In Harlem"
+			song : "Tango In Harlem (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Pretenders',
-			song : "I'll Stand by You"
+			song : "I'll Stand by You (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Sixpence None The Richer',
-			song : "Kiss Me"
+			song : "Kiss Me (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Everything But The Girl',
-			song : "Missing"
+			song : "Missing (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Genesis',
-			song : "I Can't Dance"
+			song : "I Can't Dance (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Genesis',
-			song : "No Son Of Mine"
+			song : "No Son Of Mine (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Lightning Seeds',
-			song : "You Showed Me"
+			song : "You Showed Me (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Vaya Con Dios',
-			song : "What's a Woman"
+			song : "What's a Woman (1988)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Vaya Con Dios',
-			song : "Nah Neh Nah"
+			song : "Nah Neh Nah (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Mr Big',
-			song : "Wild World"
+			song : "Wild World (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Lighthouse Family',
-			song : "Ain't No Sunshine"
+			song : "Ain't No Sunshine (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
-			song : "Enjoy The Silence"
+			song : "Enjoy The Silence (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
-			song : "Policy Of Truth"
+			song : "Policy Of Truth (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
-			song : "World In My Eyes"
+			song : "World In My Eyes (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Depeche Mode',
-			song : "It's No Good"
+			song : "It's No Good (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "Girls And Boys"
+			song : "Girls And Boys (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "Country House"
+			song : "Country House (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "The Universal"
+			song : "The Universal (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "Beetlebum"
+			song : "Beetlebum (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "Song 2"
+			song : "Song 2 (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Blur',
-			song : "Tender"
+			song : "Tender (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
-			song : "Too Much"
+			song : "Too Much (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
-			song : "Wannabe"
+			song : "Wannabe (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
-			song : "Say You'll Be There"
+			song : "Say You'll Be There (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Spice Girls',
-			song : "Move Over"
+			song : "Move Over (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Verve',
-			song : "Bitter Sweet Symphony"
+			song : "Bitter Sweet Symphony (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cardigans',
-			song : "Do You Believe"
+			song : "Do You Believe (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cardigans',
-			song : "My Favourite Game"
+			song : "My Favourite Game (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cardigans',
-			song : "Erase / Rewind"
+			song : "Erase / Rewind (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'Cardigans',
-			song : "Lovefool"
+			song : "Lovefool (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "NSYNC",
-			song : "Bye Bye Bye"
+			song : "Bye Bye Bye (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "NSYNC",
-			song : "It's Gonna Be Me"
+			song : "It's Gonna Be Me (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
@@ -3982,157 +3983,157 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'No Doubt',
-			song : "Just A Girl"
+			song : "Just A Girl (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_5,
 			group : 'No Doubt',
-			song : "Don't Speak"
+			song : "Don't Speak (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "Do What You Like"
+			song : "Do What You Like (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "A Million Love Songs"
+			song : "A Million Love Songs (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "I Found Heaven"
+			song : "I Found Heaven (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "Could It Be Magic"
+			song : "Could It Be Magic (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "Back for Good"
+			song : "Back for Good (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "Pray"
+			song : "Pray (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "Relight My Fire"
+			song : "Relight My Fire (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "Everything Changes"
+			song : "Everything Changes (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Take That',
-			song : "Babe"
+			song : "Babe (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Five',
-			song : "Slam Dunk (Da Funk)"
+			song : "Slam Dunk (Da Funk) (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Five',
-			song : "When the Lights Go Out"
+			song : "When the Lights Go Out (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Five',
-			song : "Got the Feelin'"
+			song : "Got the Feelin' (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Five',
-			song : "Everybody Get Up"
+			song : "Everybody Get Up (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Five',
-			song : "Until the Time Is Through"
+			song : "Until the Time Is Through (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Five',
-			song : "Invincible"
+			song : "Invincible (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Five',
-			song : "Don't Wanna Let You Go"
+			song : "Don't Wanna Let You Go (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Verve',
-			song : "The Drugs Don't Work"
+			song : "The Drugs Don't Work (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Verve',
-			song : "Lucky Man"
+			song : "Lucky Man (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Verve',
-			song : "Sonnet"
+			song : "Sonnet (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Paradisio',
-			song : "Bailando"
+			song : "Bailando (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Paradisio',
-			song : "Vamos a la Discoteca"
+			song : "Vamos a la Discoteca (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Reel 2 Real',
-			song : "Can You Feel It (feat. The Mad Stuntman)"
+			song : "Can You Feel It (feat. The Mad Stuntman) (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Reel 2 Real',
-			song : "Go On Move (ft The Mad Stuntman)"
+			song : "Go On Move (ft The Mad Stuntman) (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Reel 2 Real',
-			song : "I Like to Move It (ft The Mad Stuntman)"
+			song : "I Like to Move It (ft The Mad Stuntman) (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Reel 2 Real',
-			song : "The New Anthem (ft Erick Moore)"
+			song : "The New Anthem (ft Erick Moore) (1996)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Eiffel 65',
-			song : "Blue (Da Ba Dee)"
+			song : "Blue (Da Ba Dee) (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Eiffel 65',
-			song : "Move Your Body"
+			song : "Move Your Body (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Crazy Town',
-			song : "Butterfly"
+			song : "Butterfly (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'SNAP',
-			song : "The Power"
+			song : "The Power (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -4142,202 +4143,203 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'SNAP',
-			song : "Oops Up"
+			song : "Oops Up (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'SNAP',
-			song : "Rhythm Is A Dancer"
+			song : "Rhythm Is A Dancer (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Capella',
-			song : "U Got 2 Let The Music"
+			song : "U Got 2 Let The Music (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Urban Cookie Collective',
-			song : "High On A Happy Vibe"
+			song : "High On A Happy Vibe (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'CoRo',
-			song : "Because the Night (ft Taleesa)"
+			song : "Because the Night (ft Taleesa) (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'New Order',
-			song : "World In Motion"
+			song : "World In Motion (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Culture Beat',
-			song : "Mr. Vain"
+			song : "Mr Vain (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Culture Beat',
-			song : "Anything"
+			song : "Anything (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Antique',
-			song : "Opa Opa"
+			song : "Opa Opa  (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : '2 Unlimited',
-			song : "No Limit"
+			song : "No Limit (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : '2 Unlimited',
-			song : "Let The Beat Control Your Body"
+			song : "Let The Beat Control Your Body (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Dream a Dream"
+			song : "Dream a Dream (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Corona',
-			song : "The Rhythm of the Night"
+			song : "The Rhythm of the Night (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Masterboy',
-			song : "Feel the Heat of the Night"
+			song : "Feel the Heat of the Night (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'EMF',
-			song : "Unbelievable"
+			song : "Unbelievable (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Pharao',
-			song : "There Is A Star"
+			song : "There Is A Star (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Pharao',
-			song : "I Show You Secrets"
+			song : "I Show You Secrets (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Pharao',
-			song : "Gold In The Pyramid"
+			song : "Gold In The Pyramid (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Inner Circle',
-			song : "Sweat (A La La La La Song)"
+			song : "Sweat (A La La La La Song) (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Smash Mouth',
-			song : "All Star"
+			song : "All Star (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Smash Mouth',
-			song : "I'm A Believer"
+			song : "I'm A Believer (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Yaki-Da',
-			song : "I Saw You Dancing"
+			song : "I Saw You Dancing (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Yaki-Da',
-			song : "Just a Dream"
+			song : "Just a Dream (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Sade',
-			song : "No Ordinary Love"
+			song : "No Ordinary Love (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Domino',
-			song : "Baila baila conmigo"
+			song : "Baila baila conmigo (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Real McCoy',
-			song : "Another Night"
+			song : "Another Night (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'New Order',
-			song : "Regret"
+			song : "Regret (1993)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Eiffel 65',
-			song : "Back in Time"
+			song : "Back in Time (2001)",
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Eiffel 65',
-			song : "Too Much Of Heaven"
+			song : "Too Much Of Heaven (2000)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Get Up"
+			song : "Get Up (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Together and Forever"
+			song : "Together and Forever (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Only You"
+			song : "Only You (2000)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Soldier Soldier"
+			song : "Soldier Soldier (1996)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Captain Jack"
+			song : "Captain Jack (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Little Boy"
+			song : "Little Boy (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Drill Instructor"
+			song : "Drill Instructor (1996)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Captain Jack',
-			song : "Holiday"
+			song : "Holiday (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Sash',
-			song : "Equador"
+			song : "Equador (1996)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Sash',
-			song : "Adelante"
+			song : "Adelante (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Me & My',
-			song : "Dub I Dub"
+			song : "Dub I Dub (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
@@ -17758,7 +17760,7 @@ let songs = [
 		{
 			id : 4,
 			group : 'Culture Beat',
-			song : 'Culture Beat "Mr. Vain"',
+			song : 'Culture Beat "Mr Vain"',
 			state: ' по Culture Beat'
 		},
 		{
