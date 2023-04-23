@@ -4344,37 +4344,38 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Me & My',
-			song : "Let The Love Go On"
+			song : "Let The Love Go On (1996)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Me & My',
-			song : "Baby Boy"
+			song : "Baby Boy (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Me & My',
-			song : "Secret Garden"
+			song : "Secret Garden (1997)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Foo Fighters',
-			song : "Learn to Fly"
+			song : "Learn to Fly (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Foo Fighters',
-			song : "My Hero"
+			song : "My Hero (1998)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Foo Fighters',
-			song : "Big Me"
+			song : "Big Me (1996)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Inner Circle',
-			song : "Bad Boys"
+			song : "Bad Boys (1987)",
+			ignore : true
 		},	
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -4384,107 +4385,107 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Basic Element',
-			song : "Touch"
+			song : "Touch (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Basic Element',
-			song : "Move Me"
+			song : "Move Me (1996)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Basic Element',
-			song : "The Promise Man"
+			song : "The Promise Man (1994)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Basic Element',
-			song : "Leave It Behind"
+			song : "Leave It Behind (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Basic Element',
-			song : "The Ride"
+			song : "The Ride (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Basic Element',
-			song : "Shame"
+			song : "Shame (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : '2 Unlimited',
-			song : "Get Ready For This"
+			song : "Get Ready For This (1991)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
-			song : "Keep The Faith"
+			song : "Keep The Faith (1992)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
-			song : "Someday I'll Be Saturday Night"
+			song : "Someday I'll Be Saturday Night (1994)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
-			song : "This Ain't A Love Song"
+			song : "This Ain't A Love Song (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_2,
 			group : 'Bon Jovi',
-			song : "Real Love"
+			song : "Real Love (1999)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Corona',
-			song : "Baby Baby"
+			song : "Baby Baby (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Corona',
-			song : "I Don’t Wanna Be A Star"
+			song : "I Don’t Wanna Be A Star (1995)"
 		},	
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Corona',
-			song : "Try Me Out"
+			song : "Try Me Out (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : '2 Unlimited',
-			song : "Twilight Zone"
+			song : "Twilight Zone (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : '2 Unlimited',
-			song : "Tribal Dance"
+			song : "Tribal Dance (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Portishead',
-			song : "Sour Times"
+			song : "Sour Times (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Portishead',
-			song : "Glory Box"
+			song : "Glory Box (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'L7',
-			song : "Drama"
+			song : "Drama (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'L7',
-			song : "Off the Wagon"
+			song : "Off the Wagon (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
-			song : "Open Your Eyes"
+			song : "Open Your Eyes (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
@@ -4495,7 +4496,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_9,
 			group : 'Guano Apes',
-			song : "Lords Of The Boards"
+			song : "Lords Of The Boards (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_9,
@@ -4524,132 +4525,133 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Brooklyn Bounce',
-			song : "Bass, Beats & Melody"
+			song : "Bass, Beats & Melody (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Brooklyn Bounce',
-			song : "Get Ready to Bounce"
+			song : "Get Ready to Bounce (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
 			group : 'Brooklyn Bounce',
-			song : "Take a Ride"
+			song : "Take a Ride",
+			ignore: true
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'NSYNC',
-			song : "Tearing up my heart"
+			song : "Tearing up my heart (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Savage Garden',
-			song : "Chained to You"
+			song : "Chained to You (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Savage Garden',
-			song : "All Around Me"
+			song : "All Around Me (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Savage Garden',
-			song : "Violet"
+			song : "Violet (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Savage Garden',
-			song : "Crash and Burn"
+			song : "Crash and Burn (2000)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Savage Garden',
-			song : "The Animal Song"
+			song : "The Animal Song (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Savage Garden',
-			song : "Break Me Shake Me"
+			song : "Break Me Shake Me (1997)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Pulp',
-			song : "Common People"
+			song : "Common People (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Pulp',
-			song : "Disco 2000"
+			song : "Disco 2000 (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Pulp',
-			song : "Mis-Shapes"
+			song : "Mis-Shapes (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Pulp',
-			song : "Help The Aged"
+			song : "Help The Aged (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Pulp',
-			song : "This Is Hardcore"
+			song : "This Is Hardcore (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'UB40',
-			song : "Kingston Town"
+			song : "Kingston Town (1989)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'East 17',
-			song : "Deep"
+			song : "Deep (1993)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'East 17',
-			song : "Stay Another Day"
+			song : "Stay Another Day (1994)"
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'East 17',
-			song : "Hey Child"
+			song : "Hey Child (1996)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Savage Garden',
-			song : 'I Knew I Loved You'
+			song : 'I Knew I Loved You (1999)'
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Backstreet Boys',
-			song : "We've Got It Goin' On"
+			song : "We've Got It Goin' On (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Backstreet Boys',
-			song : "I'll never break your heart"
+			song : "I'll never break your heart (1995)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Backstreet Boys',
-			song : "Larger than life"
+			song : "Larger than life (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : 'Backstreet Boys',
-			song : "I want it that way"
+			song : "I want it that way (1998)"
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Pearl Jam',
-			song : "Alive"
+			song : "Alive (1991)"
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Pearl Jam',
-			song : "Jeremy"
+			song : "Jeremy (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
@@ -4660,12 +4662,12 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Alice In Chains',
-			song : "Would?"
+			song : "Would? (1992)"
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
 			group : 'Alice In Chains',
-			song : "Man in the Box"
+			song : "Man in the Box (1990)"
 		},
 		{
 			pack : EN_1990_GR_PACK_8,
@@ -4676,7 +4678,7 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_3,
 			group : "Bomfunk MCs",
-			song : "Rocking, Just To Make Ya Move"
+			song : "Rocking, Just To Make Ya Move (1999)"
 		},
 		{
 			pack : EN_1990_GR_PACK_3,
@@ -9093,624 +9095,763 @@ let en_2007_f_2 = [
 	}
 ];
 
+const en_2010_gr_icon = [
+	'pop'
+];
+
+const EN_2010_GR_PACK_1 = 1;
+
 let en_2010_gr = [
 	{
-		id : 1,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Chainsmokers',
 		song : "Closer"
 	},	
 	{
-		id : 2,
+		pack : EN_2010_GR_PACK_1,
 		group : 'LMFAO',
 		song : "Party Rock Anthem"
 	},	
 	{
-		id : 3,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "What Makes You Beautiful"
 	},	
 	{
-		id : 4,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "Live While We're Young"
 	},	
 	{
-		id : 5,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "Little Things"
 	},	
 	{
-		id : 6,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "One Way or Another (ft. Teenage Kicks)"
 	},	
 	{
-		id : 7,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "Best Song Ever"
 	},	
 	{
-		id : 8,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "Story of My Life"
 	},	
 	{
-		id : 9,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "Midnight Memories"
 	},	
 	{
-		id : 10,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "You & I"
 	},	
 	{
-		id : 11,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "Drag Me Down"
 	},	
 	{
-		id : 12,
+		pack : EN_2010_GR_PACK_1,
 		group : 'One Direction',
 		song : "Perfect"
 	},	
 	{
-		id : 13,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Twenty One Pilots',
 		song : "Ode To Sleep"
 	},	
 	{
-		id : 14,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Twenty One Pilots',
 		song : "Stressed Out"
 	},	
 	{
-		id : 15,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Twenty One Pilots',
 		song : "Ride"
 	},	
 	{
-		id : 16,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Twenty One Pilots',
 		song : "Heathens"
 	},	
 	{
-		id : 17,
+		pack : EN_2010_GR_PACK_1,
 		group : 'OneRepublic',
 		song : "If I Loose Myself"
 	},	
 	{
-		id : 18,
+		pack : EN_2010_GR_PACK_1,
 		group : 'OneRepublic',
 		song : "Counting Stars"
 	},	
 	{
-		id : 19,
+		pack : EN_2010_GR_PACK_1,
 		group : 'OneRepublic',
 		song : "Something I Need"
 	},	
 	{
-		id : 20,
+		pack : EN_2010_GR_PACK_1,
 		group : 'OneRepublic',
 		song : "Love Runs Out"
 	},	
 	{
-		id : 21,
+		pack : EN_2010_GR_PACK_1,
 		group : 'OneRepublic',
 		song : "Wherever I Go"
 	},	
 	{
-		id : 22,
+		pack : EN_2010_GR_PACK_1,
 		group : 'OneRepublic',
 		song : "Let's Hurt Tonight"
 	},	
 	{
-		id : 23,
+		pack : EN_2010_GR_PACK_1,
 		group : 'OneRepublic',
 		song : "Rich Love (ft Seeb)"
 	},	
 	{
-		id : 24,
+		pack : EN_2010_GR_PACK_1,
 		group : 'OneRepublic',
 		song : "No Vacancy"
 	},	
 	{
-		id : 25,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "It's Time"
 	},	
 	{
-		id : 26,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Radioactive"
 	},	
 	{
-		id : 27,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Believer"
 	},	
 	{
-		id : 28,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Hear Me"
 	},	
 	{
-		id : 29,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Demons"
 	},	
 	{
-		id : 30,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "On Top of the World"
 	},	
 	{
-		id : 31,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "I Bet My Life"
 	},	
 	{
-		id : 32,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Shots"
 	},	
 	{
-		id : 33,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Sucker for Pain (ft Lil Wayne and Wiz Khalifa)"
 	},	
 	{
-		id : 34,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Thunder"
 	},	
 	{
-		id : 35,
+		pack : EN_2010_GR_PACK_1,
 		group : 'Imagine Dragons',
 		song : "Whatever It Takes"
 	}
 ];
 
+let en_2010_gr_1 =	en_2010_gr.filter(item => item.pack == 1);
+
+const en_2010_m_icon = [
+	'pop'
+];
+
+const EN_2010_M_PACK_1 = 1;
+
 let en_2010_m = [
 	{
-		id : 1,
+		pack : EN_2010_M_PACK_1,
 		group : 'Lil Nas X',
 		song : "Old Town Road"
 	},
 	{
-		id : 2,
+		pack : EN_2010_M_PACK_1,
 		group : 'Luis Fonsi',
 		song : "Despacito (ft Daddy Yankee)"
 	},
 	{
-		id : 3,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "Uptown Funk (ft. Mark Ronson)"
 	},
 	{
-		id : 4,
+		pack : EN_2010_M_PACK_1,
 		group : 'Pharrell Williams',
 		song : "Blurred Lines (ft TI, Robin Thicke)"
 	},
 	{
-		id : 5,
+		pack : EN_2010_M_PACK_1,
 		group : 'Wiz Khalifa',
 		song : "See You Again"
 	},
 	{
-		id : 6,
+		pack : EN_2010_M_PACK_1,
 		group : 'Ed Sheeran',
 		song : "Shape of You"
 	},
 	{
-		id : 7,
+		pack : EN_2010_M_PACK_1,
 		group : 'Drake',
 		song : "God's Plan"
 	},
 	{
-		id : 8,
+		pack : EN_2010_M_PACK_1,
 		group : 'Pharrell Williams',
 		song : "Happy"
 	},
 	{
-		id : 9,
+		pack : EN_2010_M_PACK_1,
 		group : 'Drake',
 		song : "One Dance (ft. Kyla, Wizkid)"
 	},
 	{
-		id : 10,
+		pack : EN_2010_M_PACK_1,
 		group : 'Drake',
 		song : "In My Feelings"
 	},
 	{
-		id : 11,
+		pack : EN_2010_M_PACK_1,
 		group : 'Eminem',
 		song : "Love the Way You Lie (ft. Rihanna)"
 	},
 	{
-		id : 12,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "Nothin' on You (ft. B.o.B)"
 	},
 	{
-		id : 13,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "Just the Way You Are"
 	},
 	{
-		id : 14,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "Grenade"
 	},
 	{
-		id : 15,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "Locked Out Of Heaven"
 	},
 	{
-		id : 16,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "When I Was Your Man"
 	},
 	{
-		id : 17,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "24K Magic"
 	},
 	{
-		id : 18,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "That's What I Like"
 	},
 	{
-		id : 19,
+		pack : EN_2010_M_PACK_1,
 		group : 'Bruno Mars',
 		song : "Finesse"
 	},
 	{
-		id : 20,
+		pack : EN_2010_M_PACK_1,
 		group : 'Drake',
 		song : "Work (ft. Rihanna)"
 	},
 	{
-		id : 21,
+		pack : EN_2010_M_PACK_1,
 		group : 'Ed Sheeran',
 		song : "Perfect"
 	},
 	{
-		id : 22,
+		pack : EN_2010_M_PACK_1,
 		group : 'Ed Sheeran',
 		song : "I Don't Care (ft. Justin Bieber)"
 	},
 	{
-		id : 23,
+		pack : EN_2010_M_PACK_1,
 		group : 'Ed Sheeran',
 		song : "Bad Habits"
 	},
 	{
-		id : 24,
+		pack : EN_2010_M_PACK_1,
 		group : 'Justin Bieber',
 		song : "What Do You Mean?"
 	},
 	{
-		id : 25,
+		pack : EN_2010_M_PACK_1,
 		group : 'Justin Bieber',
 		song : "Stay (ft. The Kid LAROI)"
 	},
 	{
-		id : 26,
+		pack : EN_2010_M_PACK_1,
 		group : 'Justin Bieber',
 		song : "Sorry"
 	},
 	{
-		id : 27,
+		pack : EN_2010_M_PACK_1,
 		group : 'Justin Bieber',
 		song : "Love Yourself"
 	},
 	{
-		id : 28,
+		pack : EN_2010_M_PACK_1,
 		group : 'Justin Bieber',
 		song : "I'm the One (ft. DJ Khaled)"
 	},
 	{
-		id : 29,
+		pack : EN_2010_M_PACK_1,
 		group : 'Justin Bieber',
 		song : "Live My Life (ft. Far East Movement)"
 	},
 	{
-		id : 30,
+		pack : EN_2010_M_PACK_1,
 		group : 'Justin Bieber',
 		song : "Yummy"
 	},
 	{
-		id : 31,
+		pack : EN_2010_M_PACK_1,
 		group : 'Pitbull',
 		song : "Give Me Everything (ft. Ne-Yo, Afrojack, Nayer)"
 	},
 	{
-		id : 32,
+		pack : EN_2010_M_PACK_1,
 		group : 'Pitbull',
 		song : "Timber (ft. Kesha)"
 	},
 	{
-		id : 33,
+		pack : EN_2010_M_PACK_1,
 		group : 'Pitbull',
 		song : "Back in Time"
 	},
 	{
-		id : 34,
+		pack : EN_2010_M_PACK_1,
 		group : 'Drake',
 		song : "Hotline Bling"
 	},
 	{
-		id : 35,
+		pack : EN_2010_M_PACK_1,
 		group : 'Ed Sheeran',
 		song : "Thinking Out Loud"
 	},
 	{
-		id : 36,
+		pack : EN_2010_M_PACK_1,
 		group : 'Pharrell Williams',
 		song : "Get Lucky (ft Daft Punk)"
 	},
 	{
-		id : 37,
+		pack : EN_2010_M_PACK_1,
 		group : 'Flo Rida',
 		song : "Good Feeling"
 	},
 	{
-		id : 38,
+		pack : EN_2010_M_PACK_1,
 		group : 'Flo Rida',
 		song : "Whistle"
 	},
 	{
-		id : 39,
+		pack : EN_2010_M_PACK_1,
 		group : 'will.i.am',
 		song : "This Is Love (ft Eva Simons)"
 	},
 	{
-		id : 40,
+		pack : EN_2010_M_PACK_1,
 		group : 'will.i.am',
 		song : "Scream & Shout (ft Britney Spears)"
 	},
 	{
-		id : 41,
+		pack : EN_2010_M_PACK_1,
 		group : 'Weeknd',
 		song : "Blinding Lights"
 	},
 	{
-		id : 42,
+		pack : EN_2010_M_PACK_1,
 		group : 'Weeknd',
 		song : "The Hills"
 	},
 	{
-		id : 43,
+		pack : EN_2010_M_PACK_1,
 		group : 'Weeknd',
 		song : "Can't Feel My Face"
 	},
 	{
-		id : 44,
+		pack : EN_2010_M_PACK_1,
 		group : 'Weeknd',
 		song : "Starboy (ft Daft Punk)"
 	},
 	{
-		id : 45,
+		pack : EN_2010_M_PACK_1,
 		group : 'Weeknd',
 		song : "Save Your Tears"
 	},
 	{
-		id : 46,
+		pack : EN_2010_M_PACK_1,
 		group : 'Weeknd',
 		song : "Heartless"
 	},
 	{
-		id : 47,
+		pack : EN_2010_M_PACK_1,
 		group : 'will.i.am',
 		song : "#thatPOWER (ft Justin Bieber)"
 	},
 	{
-		id : 48,
+		pack : EN_2010_M_PACK_1,
 		group : 'will.i.am',
 		song : "It’s My Birthday (ft Cody Wise)"
 	},
 	{
-		id : 49,
+		pack : EN_2010_M_PACK_1,
 		group : 'Harry Styles',
 		song : "Watermelon Sugar"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'David Guetta',
+		song : "Bad (ft Vassy) (2014)"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'David Guetta',
+		song : "Lovers On The Sun (2014)"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Alan Walker',
+		song : "Faded (2015)"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Alan Walker',
+		song : "Alone (2016)"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Tiesto',
+		song : "Wasted (ft Matthew Koma)(2014)"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Tiesto',
+		song : "Red Lights (2014)"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Kanya West',
+		song : "All Of The Lights (2010)"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Kanya West',
+		song : "Bound 2 (2013)"
 	}
 ];
 
+let en_2010_m_1 =	en_2010_m.filter(item => item.pack == 1);
+
+const en_2010_f_icon = [
+	'pop'
+];
+
+const EN_2010_F_PACK_1 = 1;
+
 let en_2010_f = [
 	{
-		id : 1,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "We Found Love"
 	},
 	{
-		id : 2,
+		pack : EN_2010_F_PACK_1,
 		group : 'Adele',
 		song : "Hello"
 	},
 	{
-		id : 3,
+		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
 		song : "Break Free"
 	},
 	{
-		id : 4,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "California Gurls (ft. Snoop Dogg)"
 	},
 	{
-		id : 5,
+		pack : EN_2010_F_PACK_1,
 		group : 'Adele',
 		song : "Rolling in the Deep"
 	},
 	{
-		id : 6,
+		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
 		song : "Born This Way"
 	},
 	{
-		id : 7,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "E.T. (ft. Kanye West)"
 	},
 	{
-		id : 9,
+		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
 		song : "Telephone (ft. Beyonce)"
 	},
 	{
-		id : 10,
+		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
 		song : "Shallow (ft. Bradley Cooper)"
 	},
 	{
-		id : 11,
+		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
 		song : "Rain On Me (ft. Ariane Grande)"
 	},
 	{
-		id : 12,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "Teenage Dream"
 	},
 	{
-		id : 13,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "Firework"
 	},
 	{
-		id : 14,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "Last Friday Night"
 	},
 	{
-		id : 15,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "Wide Awake"
 	},
 	{
-		id : 16,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "Roar"
 	},
 	{
-		id : 17,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "Dark Horse (ft. Juicy J)"
 	},
 	{
-		id : 18,
+		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
 		song : "Chained To The Rhythm"
 	},
 	{
-		id : 19,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "Rude Boy"
 	},
 	{
-		id : 20,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "Only Girl"
 	},
 	{
-		id : 21,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "Diamonds"
 	},
 	{
-		id : 22,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "Monster (ft. Eminem)"
 	},
 	{
-		id : 23,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "Wild Thoughts (ft. DJ Khaled and Bryson Tiller)"
 	},
 	{
-		id : 24,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "Where Have You Been (ft. Eminem)"
 	},
 	{
-		id : 25,
+		pack : EN_2010_F_PACK_1,
 		group : 'Adele',
 		song : "Someone Like You"
 	},
 	{
-		id : 26,
+		pack : EN_2010_F_PACK_1,
 		group : 'Adele',
 		song : "Skyfall"
 	},
 	{
-		id : 27,
+		pack : EN_2010_F_PACK_1,
 		group : 'Taylor Swift',
 		song : "We Are Never Ever Getting Back Together"
 	},
 	{
-		id : 28,
+		pack : EN_2010_F_PACK_1,
 		group : 'Taylor Swift',
 		song : "Shake It Off"
 	},
 	{
-		id : 29,
+		pack : EN_2010_F_PACK_1,
 		group : 'Taylor Swift',
 		song : "Blank Space"
 	},
 	{
-		id : 30,
+		pack : EN_2010_F_PACK_1,
 		group : 'Taylor Swift',
 		song : "Look What You Made Me Do"
 	},
 	{
-		id : 31,
+		pack : EN_2010_F_PACK_1,
 		group : 'Taylor Swift',
 		song : "I Knew You Were Trouble"
 	},
 	{
-		id : 32,
+		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
 		song : "Problem"
 	},
 	{
-		id : 33,
+		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
 		song : "No Tears Left To Cry"
 	},
 	{
-		id : 34,
+		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
 		song : "thank u, next"
 	},
 	{
-		id : 35,
+		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
 		song : "7 rings"
 	},
 	{
-		id : 36,
+		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
 		song : "Positions"
 	},
 	{
-		id : 37,
+		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
 		song : "Always Remember Us This Way"
 	},
 	{
-		id : 38,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "Love The Way You Lie (ft Eminem)"
 	},
 	{
-		id : 39,
+		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "Work (ft Drake)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Sia',
+		song : "Chandlier (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Sia',
+		song : "Cheap Thrills (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Selena Gomez',
+		song : "Wolves (ft Marshmello)(2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Selena Gomez',
+		song : "Lose You To Love Me (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Nicki Minaj',
+		song : "Anaconda (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Nicki Minaj',
+		song : "Bang Bang (ft Jessie J, Ariana Grande) (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Miley Cyrus',
+		song : "We Can't Stop (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Miley Cyrus',
+		song : "Wrecking Ball (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Billie Eilish',
+		song : "Wish You Were Gay (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Billie Eilish',
+		song : "Bad Guy (2020)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Dua Lipa',
+		song : "New Rules (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Dua Lipa',
+		song : "Blow Your Mind(Mwah) (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Taylor Swift',
+		song : "Wildest Dreams (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Lana Del Rey',
+		song : "Video Games (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Lana Del Rey',
+		song : "Diet Mountain Dew (2011)"
 	}
 ];
+
+let en_2010_f_1 =	en_2010_f.filter(item => item.pack == 1);
 
 let en_2020 = [
 	{
@@ -16925,496 +17066,519 @@ let ru_2007 = [
 	}
 ];
 
-let ru_2010_gr_1 = [
+const ru_2010_gr_icon = [
+	'ru_pop',
+	'ru_rock'
+];
+
+const RU_2010_GR_PACK_1 = 1;
+const RU_2010_GR_PACK_2 = 2;
+
+let ru_2010_gr = [
 	{
-		id : 1,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Чай вдвоём',
 		song : "Белое платье"
 	},
 	{
-		id : 2,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Любэ',
 		song : "Всё опять начинается"
 	},
 	{
-		id : 4,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Потап и Настя',
 		song : "Чумачечая весна"
 	},
 	{
-		id : 5,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Потап и Настя',
 		song : "Если вдруг"
 	},
 	{
-		id : 6,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Градусы',
 		song : "Голая"
 	},
 	{
-		id : 7,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Reflex',
 		song : "Я буду небом твоим"
 	},
 	{
-		id : 8,
+		pack : RU_2010_GR_PACK_1,
 		group : '5ivesta Family',
 		song : "Вместе мы"
 	},
 	{
-		id : 9,
-		group : 'Дискотека Авария ft. Орбакайте Кристина',
-		song : "Прогноз погоды"
+		pack : RU_2010_GR_PACK_1,
+		group : 'Дискотека Авария',
+		song : "Прогноз погоды (ft Кристина Орбакайте)"
 	},
 	{
-		id : 10,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Градусы',
 		song : "Заметает"
 	},
 	{
-		id : 11,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Пикник',
 		song : 'Сияние'
 	},
 	{
-		id : 12,
+		pack : RU_2010_GR_PACK_1,
 		group : 'Burito',
 		song : "По волнам"
-	}
-];
-
-let ru_2010_gr_2 = [
+	},
 	{
-		id : 1,
+		pack : RU_2010_GR_PACK_2,
 		group : 'ДДТ',
 		song : "Песня о свободе"
 	},
 	{
-		id : 2,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Hatters',
 		song : "Да, со мной не просто"
 	},
 	{
-		id : 3,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Сплин',
 		song : "Когда пройдёт 100 лет"
 	},
 	{
-		id : 4,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Алиса',
 		song : "Дождь и я"
 	},
 	{
-		id : 5,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Мумий Тролль',
 		song : "Девочкодруг"
 	},
 	{
-		id : 6,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Ю-Питер',
 		song : "Дети минут"
 	},
 	{
-		id : 7,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Stigmata',
 		song : "Время"
 	},
 	{
-		id : 8,
+		pack : RU_2010_GR_PACK_2,
 		group : 'СерьГа',
 		song : "Детское сердце"
 	},
 	{
-		id : 9,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Би-2',
 		song : "Компромисс"
 	},
 	{
-		id : 10,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Тараканы',
 		song : "Пойдём на улицу!"
 	},
 	{
-		id : 11,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Чайф',
 		song : "Про бобра и барабан"
 	},
 	{
-		id : 12,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Ночные Снайперы',
 		song : "Поговори со мной, Ольга"
 	},
 	{
-		id : 13,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Ленинград',
 		song : "В Питере — пить"
 	},
 	{
-		id : 14,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Animal ДжаZ',
 		song : "Здесь и сейчас"
 	},
 	{
-		id : 15,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Мураками',
 		song : "Нулевой километр"
 	},
 	{
-		id : 16,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Кукрыниксы',
 		song : "Жизнь бывает разная!"
 	},
 	{
-		id : 17,
+		pack : RU_2010_GR_PACK_2,
 		group : 'АукцЫон',
 		song : "Огонь"
 	},
 	{
-		id : 18,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Louna',
 		song : "Бойцовский клуб"
 	},
 	{
-		id : 19,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Машина времени',
 		song : "Однажды"
 	},
 	{
-		id : 20,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Lumen',
 		song : "Дух времени"
 	},
 	{
-		id : 21,
+		pack : RU_2010_GR_PACK_2,
 		group : 'Сплин',
 		song : "Рай в шалаше"
 	}
 ];
 
-let ru_2010_m_1 = [
+let ru_2010_gr_1 =	ru_2010_gr.filter(item => item.pack == 1);
+let ru_2010_gr_2 =	ru_2010_gr.filter(item => item.pack == 2);
+
+const ru_2010_m_icon = [
+	'ru_pop',
+	'rap'
+];
+
+const RU_2010_M_PACK_1 = 1;
+const RU_2010_M_PACK_2 = 2;
+
+let ru_2010_m = [
 	{
-		id : 1,
+		pack : RU_2010_M_PACK_1,
 		group : 'Сергей Трофимов',
 		song : "Не расказывай"
 	},
 	{
-		id : 2,
+		pack : RU_2010_M_PACK_1,
 		group : 'Митя Фомин',
 		song : "Ла-Ла"
 	},
 	{
-		id : 3,
+		pack : RU_2010_M_PACK_1,
 		group : 'Стас Михайлов',
 		song : "Отпусти (ft Таисия Повалий)"
 	},
 	{
-		id : 4,
+		pack : RU_2010_M_PACK_1,
 		group : 'Филипп Киркоров',
 		song : "Струны"
 	},
 	{
-		id : 5,
-		group : 'Киркоров Филипп',
-		song : "Голос (ft Нетребко Анна)"
+		pack : RU_2010_M_PACK_1,
+		group : 'Филипп Киркоров',
+		song : "Голос (ft Анна Нетребко)"
 	},
-	
 	{
-		id : 6,
+		pack : RU_2010_M_PACK_1,
 		group : 'Филипп Киркоров',
 		song : "Снег"
 	},
 	{
-		id : 7,
+		pack : RU_2010_M_PACK_1,
 		group : 'Стас Пьеха',
 		song : "Я и ты (ft Слава)"
 	},
 	{
-		id : 8,
+		pack : RU_2010_M_PACK_1,
 		group : 'Григорий Лепс',
 		song : "Самый лучший день"
 	},
 	{
-		id : 9,
+		pack : RU_2010_M_PACK_1,
 		group : 'Митя Фомин',
 		song : "Paninaro (Огни большого города)"
 	},
 	{
-		id : 10,
+		pack : RU_2010_M_PACK_1,
 		group : 'Стас Михайлов',
 		song : "Только ты"
 	},
 	{
-		id : 11,
+		pack : RU_2010_M_PACK_1,
 		group : 'Дима Билан',
 		song : "Я просто люблю тебя"
 	},
 	{
-		id : 12,
+		pack : RU_2010_M_PACK_1,
 		group : 'Доминик Джокер',
 		song : "Если ты со мной"
 	},
 	{
-		id : 13,
+		pack : RU_2010_M_PACK_1,
 		group : 'Григорий Лепс',
 		song : "Я стану водопадом"
 	},
 	{
-		id : 14,
+		pack : RU_2010_M_PACK_1,
 		group : 'Филипп Киркоров',
 		song : "Я отпускаю тебя"
 	},
 	{
-		id : 15,
+		pack : RU_2010_M_PACK_1,
 		group : 'Иракли',
 		song : "Нелюбовь (ft Даша Суворова)"
 	},
 	{
-		id : 16,
+		pack : RU_2010_M_PACK_1,
 		group : 'Стас Пьеха',
 		song : "Старая история"
 	},
 	{
-		id : 17,
+		pack : RU_2010_M_PACK_1,
 		group : 'Джиган',
 		song : "Нас больше нет"
 	},
 	{
-		id : 18,
+		pack : RU_2010_M_PACK_1,
 		group : 'Dan Balan',
 		song : "Лишь до утра"
 	},
 	{
-		id : 19,
+		pack : RU_2010_M_PACK_1,
 		group : 'Семён Слепаков',
 		song : "Круглосуточно красивая женщина"
 	},
 	{
-		id : 20,
+		pack : RU_2010_M_PACK_1,
 		group : 'Григорий Лепс',
 		song : "Я счастливый"
-	}
-];
-
-let ru_2010_m_2 = [
+	},
 	{
-		id : 1,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Больше, чем любовь (ft Алексей Воробьёв)"
 	},
 	{
-		id : 2,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Надо ли"
 	},
 	{
-		id : 3,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Самая-самая"
 	},
 	{
-		id : 4,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Невеста"
 	},
 	{
-		id : 5,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Будильник"
 	},
 	{
-		id : 6,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Мне нравится"
 	},
 	{
-		id : 7,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Если ты меня не любишь (ft Molly)"
 	},
 	{
-		id : 8,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Потрачу"
 	},
 	{
-		id : 9,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Часики (ft Валерия)"
 	},
 	{
-		id : 10,
+		pack : RU_2010_M_PACK_2,
 		group : 'Егор Крид',
 		song : "Цвет настроения чёрный"
 	},
 	{
-		id : 11,
+		pack : RU_2010_M_PACK_2,
 		group : 'Макс Корж',
 		song : "Небо поможет нам"
 	},
 	{
-		id : 12,
+		pack : RU_2010_M_PACK_2,
 		group : 'Макс Корж',
 		song : "Малый повзрослел"
 	},
 	{
-		id : 13,
+		pack : RU_2010_M_PACK_2,
 		group : 'Макс Корж',
 		song : "Это наш путь"
 	},
 	{
-		id : 14,
+		pack : RU_2010_M_PACK_2,
 		group : 'Иван Дорн',
 		song : "Бигуди"
 	},
 	{
-		id : 15,
+		pack : RU_2010_M_PACK_2,
 		group : 'Баста',
 		song : "Сансара"
 	},
 	{
-		id : 16,
+		pack : RU_2010_M_PACK_2,
 		group : 'Баста',
 		song : "Солнца не видно"
 	},
 	{
-		id : 17,
+		pack : RU_2010_M_PACK_2,
 		group : 'Баста',
 		song : "Вселенная"
 	},
 	{
-		id : 18,
+		pack : RU_2010_M_PACK_2,
 		group : 'Баста',
 		song : "Каменные цветы"
 	},
 	{
-		id : 19,
+		pack : RU_2010_M_PACK_2,
 		group : 'Баста',
 		song : "Райские яблоки"
 	},
 	{
-		id : 20,
+		pack : RU_2010_M_PACK_2,
 		group : 'Иван Дорн',
 		song : "Северное сияние"
 	},
 	{
-		id : 21,
+		pack : RU_2010_M_PACK_2,
 		group : 'Иван Дорн',
 		song : "Школьное окно"
 	},
 	{
-		id : 22,
+		pack : RU_2010_M_PACK_2,
 		group : 'Иван Дорн',
 		song : "Стыцамэн"
 	}
 ];
 
+let ru_2010_m_1 =	ru_2010_m.filter(item => item.pack == 1);
+let ru_2010_m_2 =	ru_2010_m.filter(item => item.pack == 2);
+
+const ru_2010_f_icon = [
+	'ru_pop'
+];
+
+const RU_2010_F_PACK_1 = 1;
+
 let ru_2010_f = [
 	{
-		id : 1,
+		pack : RU_2010_F_PACK_1,
 		group : 'Слава',
 		song : "Одиночество"
 	},
 	{
-		id : 2,
+		pack : RU_2010_F_PACK_1,
 		group : 'Вера Брежнева',
 		song : "Любовь спасёт мир"
 	},
 	{
-		id : 3,
+		pack : RU_2010_F_PACK_1,
 		group : 'Валерия',
 		song : "Капелькой неба"
 	},
 	{
-		id : 4,
+		pack : RU_2010_F_PACK_1,
 		group : 'Ирина Аллегрова',
 		song : "Не обернусь"
 	},
 	{
-		id : 5,
+		pack : RU_2010_F_PACK_1,
 		group : 'Ани Лорак',
 		song : "С первого взгляда"
 	},
 	{
-		id : 6,
+		pack : RU_2010_F_PACK_1,
 		group : 'Нюша',
 		song : "Выбирать чудо"
 	},
 	{
-		id : 7,
+		pack : RU_2010_F_PACK_1,
 		group : 'Зара',
 		song : "Недолюбила"
 	},
 	{
-		id : 8,
+		pack : RU_2010_F_PACK_1,
 		group : 'Елена Ваенга',
 		song : "Аэропорт"
 	},
 	{
-		id : 9,
+		pack : RU_2010_F_PACK_1,
 		group : 'Жанна Фриске',
 		song : "А на море белый песок"
 	},
 	{
-		id : 10,
+		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
 		song : "Прованс"
 	},
 	{
-		id : 11,
+		pack : RU_2010_F_PACK_1,
 		group : 'Вера Брежнева',
 		song : "Реальная жизнь"
 	},
 	{
-		id : 12,
+		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
 		song : "На большом воздушном шаре"
 	},
 	{
-		id : 13,
+		pack : RU_2010_F_PACK_1,
 		group : 'Зара',
 		song : "Амели"
 	},
 	{
-		id : 14,
+		pack : RU_2010_F_PACK_1,
 		group : 'Виктория Дайнеко',
 		song : "Сотри его из memory"
 	},
 	{
-		id : 15,
+		pack : RU_2010_F_PACK_1,
 		group : 'Нюша',
 		song : "Воспоминание"
 	},
 	{
-		id : 16,
+		pack : RU_2010_F_PACK_1,
 		group : 'Ёлка',
 		song : "Около тебя"
 	},
 	{
-		id : 17,
+		pack : RU_2010_F_PACK_1,
 		group : 'Полина Гагарина',
 		song : "Спектакль окончен"
 	},
 	{
-		id : 18,
+		pack : RU_2010_F_PACK_1,
 		group : 'Елена Ваенга',
 		song : "Шопен"
 	},
 	{
-		id : 19,
+		pack : RU_2010_F_PACK_1,
 		group : 'Слава',
 		song : "Sex не любовь"
 	},
 	{
-		id : 20,
+		pack : RU_2010_F_PACK_1,
 		group : 'Анита Цой',
 		song : "Зима-Лето"
 	},
 	{
-		id : 21,
+		pack : RU_2010_F_PACK_1,
 		group : 'Натали',
 		song : "О боже, какой мужчина"
 	}
 ];
+
+let ru_2010_f_1 =	ru_2010_f.filter(item => item.pack == 1);
 
 let ru_2020 = [
 	{
@@ -20396,7 +20560,7 @@ let music = [
 		packs: [
 				{
 					arr: en_2000_gr_1,
-					name: 'EN 1990s Groups: Rock#1',
+					name: 'EN 2000s Groups: Rock#1',
 				},
 				{
 					arr: en_2000_gr_2,
@@ -20457,6 +20621,42 @@ let music = [
 				{
 					arr: en_2000_f_3,
 					name: 'EN 2000s Female: RnB',
+				}
+			]
+	},
+	{
+		arr: en_2010_gr,
+		lang: 'en',
+		year: '2010',
+		type: 'gr',
+		packs: [
+				{
+					arr: en_2010_gr_1,
+					name: 'EN 2010s Groups: Pop',
+				}
+			]
+	},
+	{
+		arr: en_2010_m,
+		lang: 'en',
+		year: '2010',
+		type: 'm',
+		packs: [
+				{
+					arr: en_2010_m_1,
+					name: 'EN 2010s Male: Pop',
+				}
+			]
+	},
+	{
+		arr: en_2010_f,
+		lang: 'en',
+		year: '2010',
+		type: 'f',
+		packs: [
+				{
+					arr: en_2010_f_1,
+					name: 'EN 2010s Female: Pop',
 				}
 			]
 	},
@@ -20635,6 +20835,46 @@ let music = [
 					name: 'RU 2000s Female: Hard',
 				}
 			]
+	},
+	{
+		arr: ru_2010_gr,
+		lang: 'ru',
+		year: '2010',
+		type: 'gr',
+		packs: [
+				{
+					arr: ru_2010_gr_1,
+					name: 'RU 2010s Groups: Pop',
+				},
+				{
+					arr: ru_2010_gr_2,
+					name: 'RU 2010s Groups: Rock',
+				}
+			]
+	},
+	{
+		arr: ru_2010_m,
+		lang: 'ru',
+		year: '2010',
+		type: 'm',
+		packs: [
+				{
+					arr: ru_2010_m_1,
+					name: 'RU 2010s Male: Pop',
+				}
+			]
+	},
+	{
+		arr: ru_2010_f,
+		lang: 'ru',
+		year: '2010',
+		type: 'f',
+		packs: [
+				{
+					arr: ru_2010_f_1,
+					name: 'RU 2010s Female: Pop',
+				}
+			]
 	}
 ]
 
@@ -20685,11 +20925,7 @@ function generateSongIdsWithPrefix(arr, lang, year, type){
 		id = 'Song (' + i + ')';
 		arr[i-1].id = prefix + id;
 		arr[i-1].audioPath = audioPath + id;
-		if(year == '1980' || year == '1990' || year == '2000'){
-			arr[i-1].imgPath = imgPath + 'avatar/' + arr[i-1].group;
-		} else {
-			arr[i-1].imgPath = imgPath + id;
-		}
+		arr[i-1].imgPath = imgPath + 'avatar/' + arr[i-1].group;
 	}
 	return arr;
 }
@@ -21013,11 +21249,7 @@ function package_num(num){
 	$('#current_pack').attr('src', $('#package_' + num).attr('src'));
 	back = back_to_packages;
 	$('.package').hide();
-	if(year == '1980' || year == '1990' || year == '2000'){
-		setPathsByPack(num);
-	} else {
-		setPaths(artist_type, num, genre);
-	}
+	setPathsByPack(num);
 	showGroupNames();
 }
 
@@ -21052,10 +21284,7 @@ function setPathsByPack(num){
 	songs = arr.filter(song => song.pack == num && !song.ignore);
 	songs.forEach(song => {
 		song.audioPath = 'audio/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
-		song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/' + song.id;
-		if(year == '1980' || year == '1990' || year == '2000'){
-			song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/avatar/' + song.group;
-		}
+		song.imgPath = 'img/' + lang + '/' + year + '/' + artist_type + '/avatar/' + song.group;
 	});
 	finalMessage = ' Ура! Вы освоили "Дискотеку ' + year + '-х"!';
 	$('#total').html(songs.length);
@@ -21122,10 +21351,7 @@ function setMusicalAlphabetPack(arr, type, audioPath, imgPath){
 		song.letter = Array.from(song.group)[0];
 		song.type = type;
 		song.audioPath = audioPath + song.id;
-		song.imgPath = imgPath + song.id;
-		if(year == '1990' || year == '2000'){
-			song.imgPath = imgPath + 'avatar/' + song.group;
-		}
+		song.imgPath = imgPath + 'avatar/' + song.group;
 	});
 	return result;
 }
@@ -21286,8 +21512,12 @@ function mode(num, album, album_num){
 	// 2010
 	if(num == 10){
 		year = '2010';
-		$('#song').hide();
-		$('.artist').show();
+		gr_package_names =  en_2010_gr_icon;
+		m_package_names = en_2010_m_icon;
+		f_package_names = en_2010_f_icon;
+		if(!alphabetMode){
+			$('.artist').show();
+		}
 	}
 	// 2020
 	if(num == 11){
@@ -21409,12 +21639,13 @@ function mode(num, album, album_num){
 	// 2010
 	if(num == 13){
 		year = '2010';
-		m_packages = 2;
-		gr_packages = 2;
-		gr_package_names[0] = 'ru_pop_1';
-		gr_package_names[1] = 'ru_rock_1';
+		gr_package_names = ru_2010_gr_icon;
+		m_package_names = ru_2010_m_icon;
+		f_package_names = ru_2010_f_icon;
 		$('#song').hide();
-		$('.artist').show();
+		if(!alphabetMode){
+			$('.artist').show();
+		}
 	}
 	// 2020
 	if(num == 12){
@@ -21434,7 +21665,7 @@ function mode(num, album, album_num){
 		year = 'kish';
 		sec_per_turn = 20;
 		$('#learn').html('Угадай песню КиШа');
-		songs = setMusicalAlphabetPack(generateSongIds(ru_kish_gr), 'Песня', 'audio/ru_kish_gr/', 'img/ru_kish_gr/');
+		songs = generateSongIdsByPaths(ru_kish_gr, 'audio/ru_kish_gr/', 'img/ru_kish_gr/avatar/');
 		shuffle(songs);
 		songs = songs.slice(0, 20);
 		answers = songs.map(item=>item.group);
