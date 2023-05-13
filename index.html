@@ -40,7 +40,7 @@
 			<h2>Песня: <span id='song_count'>0</span> / <span id='total'>?</span></h2>
 			<h2 id='life' style="display:none">Жизни: <span id='mistakes' class='green'>4</span></h2>
 			<h2 id='tour' style="display:none">Тур № <span id='tour_number'>4</span></h2>
-			<h2>Статус: <span id='status' class='pink'>Новичок</span></h2>
+			<h2 id='h2_status'>Статус: <span id='status' class='pink'>Новичок</span></h2>
 			<h2 id='sec_h2' onclick="time_toggle()" class='pointer onhover'>Секунды: <span id='sec' class='blue pointer onhover'>0</span></h2>
 			<h2 id='min_h2' onclick="time_toggle()" class='pointer onhover' style="display:none">Минуты: <span id='min' class='green pointer onhover'>0</span></h2>
 			<!-- <img class='blink pointer' src="img/navi/like.jpg" width="100" height="100" style="display:none" onclick="like()"/> -->
@@ -233,9 +233,27 @@
 		<img id="mode_13" class="ru pointer mode" src="img/navi/ru/ru_2010.jpg" width="300" height="200" style="display:none" onclick="mode(13)"/>
 		<!-- <img id="mode_12" class="ru pointer mode" src="img/navi/ru/ru_2020.jpg" width="300" height="200" style="display:none" onclick="mode(12)"/> -->
 		<img id="mode_28" class="ru pointer mode" src="img/navi/ru/ru_kish.jpg" width="300" height="200" style="display:none" onclick="mode(28)"/>
-		<img id="mode_22" class="submode pointer" src="img/navi/ru/ru_kish_random_20.png" width="300" height="200" style="display:none" onclick="mode(22)"/>
-		<img id="mode_29" class="submode pointer" src="img/navi/ru/ru_kish_minus.png" width="300" height="200" style="display:none" onclick="mode(29)"/>
 		<img id="mode_42" class="submode pointer" src="img/navi/ru/express.png" width="300" height="200" style="display:none" onclick="mode(31)"/>
+		<img id="mode_29" class="submode pointer" src="img/navi/ru/ru_kish_minus.png" width="300" height="200" style="display:none" onclick="mode(29)"/>
+		<img id="mode_43" class="submode pointer" src="img/navi/ru/ru_kish_karaoke.png" width="300" height="200" style="display:none" onclick="mode(32)"/>
+		<img class="submode pointer" src="img/navi/ru/ru_kish_revers.png" width="300" height="200" style="display:none" onclick="mode(34)"/>
+		<img id="mode_22" class="submode pointer" src="img/navi/ru/ru_kish_random_20.png" width="300" height="200" style="display:none" onclick="mode(22)"/>
+		<img class="kish_revers pointer" src="img/ru_kish_gr/avatar/Будь как дома, путник.jpg" width="300" height="300" style="display:none" onclick="mode(35, 'Будь как дома, путник', 2)"/>
+		<img class="kish_revers pointer" src="img/ru_kish_gr/avatar/Акустический Альбом.jpg" width="300" height="300" style="display:none" onclick="mode(35, 'Акустический Альбом', 3)"/>
+		<img class="kish_revers pointer" src="img/ru_kish_gr/avatar/Герои и Злодеи.jpg" width="300" height="300" style="display:none" onclick="mode(35, 'Герои и Злодеи', 4)"/>
+		<img class="kish_revers pointer" src="img/ru_kish_gr/avatar/Как в старой сказке.jpg" width="300" height="300" style="display:none" onclick="mode(35, 'Как в старой сказке', 5)"/>
+		<img class="kish_revers pointer" src="img/ru_kish_gr/avatar/Жаль, нет ружья.jpg" width="300" height="300" style="display:none" onclick="mode(35, 'Жаль, нет ружья', 6)"/>
+		<img class="kish_revers pointer" src="img/ru_kish_gr/avatar/Бунт на корабле.jpg" width="300" height="300" style="display:none" onclick="mode(35, 'Бунт на корабле', 7)"/>
+		<img class="kish_revers pointer" src="img/ru_kish_gr/avatar/Продавец кошмаров.jpg" width="300" height="300" style="display:none" onclick="mode(35, 'Продавец кошмаров', 8)"/>
+		<img class="kish_revers pointer" src="img/ru_kish_gr/avatar/Театр Демона.jpg" width="300" height="300" style="display:none" onclick="mode(35, 'Театр Демона', 10)"/>
+		<img class="kish_karaoke pointer" src="img/ru_kish_gr/avatar/Будь как дома, путник.jpg" width="300" height="300" style="display:none" onclick="mode(33, 'Будь как дома, путник', 2)"/>
+		<img class="kish_karaoke pointer" src="img/ru_kish_gr/avatar/Акустический Альбом.jpg" width="300" height="300" style="display:none" onclick="mode(33, 'Акустический Альбом', 3)"/>
+		<img class="kish_karaoke pointer" src="img/ru_kish_gr/avatar/Герои и Злодеи.jpg" width="300" height="300" style="display:none" onclick="mode(33, 'Герои и Злодеи', 4)"/>
+		<img class="kish_karaoke pointer" src="img/ru_kish_gr/avatar/Как в старой сказке.jpg" width="300" height="300" style="display:none" onclick="mode(33, 'Как в старой сказке', 5)"/>
+		<img class="kish_karaoke pointer" src="img/ru_kish_gr/avatar/Жаль, нет ружья.jpg" width="300" height="300" style="display:none" onclick="mode(33, 'Жаль, нет ружья', 6)"/>
+		<img class="kish_karaoke pointer" src="img/ru_kish_gr/avatar/Бунт на корабле.jpg" width="300" height="300" style="display:none" onclick="mode(33, 'Бунт на корабле', 7)"/>
+		<img class="kish_karaoke pointer" src="img/ru_kish_gr/avatar/Продавец кошмаров.jpg" width="300" height="300" style="display:none" onclick="mode(33, 'Продавец кошмаров', 8)"/>
+		<img class="kish_karaoke pointer" src="img/ru_kish_gr/avatar/Театр Демона.jpg" width="300" height="300" style="display:none" onclick="mode(33, 'Театр Демона', 10)"/>
 		<img id="mode_31" class="kish_minus pointer" src="img/ru_kish_gr/avatar/Камнем по голове.jpg" width="300" height="300" style="display:none" onclick="mode(30, 'Камнем по голове', 1)"/>
 		<img id="mode_32" class="kish_minus pointer" src="img/ru_kish_gr/avatar/Будь как дома, путник.jpg" width="300" height="300" style="display:none" onclick="mode(30, 'Будь как дома, путник', 2)"/>
 		<img id="mode_33" class="kish_minus pointer" src="img/ru_kish_gr/avatar/Акустический Альбом.jpg" width="300" height="300" style="display:none" onclick="mode(30, 'Акустический Альбом', 3)"/>
@@ -271,7 +289,7 @@
 		</span>
 		<span class='single'>
 			<h3>Нужно подучить: <span id='skill' class='red'></span></h3>
-			<h3>Угадано: <br/><span id='rate' class='green'></span></h3>
+			<h3>Угадано: <span id='rate' class='green'></span></h3>
 		</span>
 		<span class='double' style="display:none">
 			<h2><span class='p1 green'></span>, подучить: <span id='p1_skill' class='red'></span></h2>
