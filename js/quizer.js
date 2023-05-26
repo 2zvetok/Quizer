@@ -14509,8 +14509,8 @@ let ru_1990_minus = [
 
 const ru_2000_gr_icon = [
 	'ru_rock',
-	'easy',
-	'medium',
+	'ru_pop_m_easy',
+	'ru_pop_m_medium',
 	'ru_pop_f',
 	'ru_pop_f_easy',
 	'ru_pop_f_medium'
