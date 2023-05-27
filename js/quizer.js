@@ -8083,6 +8083,11 @@ let en_2000_m = [
 			song : "Mundian to Bach Ke"
 		},
 		{
+			pack : EN_2000_M_PACK_1,
+			group : 'Enrique Iglesias',
+			song : 'Be With You'
+		},
+		{
 			pack : EN_2000_M_PACK_2,
 			group : 'Yves Larock',
 			song : "By Your Side"
