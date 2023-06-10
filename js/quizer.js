@@ -3883,7 +3883,8 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_4,
 			group : 'Mr Big',
-			song : "Wild World (1993)"
+			song : "Wild World (1993)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_4,
@@ -4815,12 +4816,12 @@ let en_1990_gr = [
 			song : "Aint Nuthing ta F' Wit"
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Nightcrawlers',
 			song : "Push the Feeling On"
 		},
 		{
-			pack : EN_1990_GR_PACK_9,
+			pack : EN_1990_GR_PACK_8,
 			group : 'Nightcrawlers',
 			song : "Surrender Your Love"
 		},
@@ -6080,6 +6081,11 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_1,
 			group : 'Mariah Carey',
 			song : "Fantasy (ft Dave Hall)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Meja',
+			song : "All 'Bout the Money (1998)"
 		}
 ];
 
