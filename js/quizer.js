@@ -16957,6 +16957,16 @@ let ru_2000_f = [
 		pack : RU_2000_F_PACK_1,
 		group : 'Линда',
 		song : "Любовь в конверте"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Елена Ваенга',
+		song : "Желаю"
+	},
+	{
+		pack : RU_2000_F_PACK_2,
+		group : 'Елена Ваенга',
+		song : "Шопен"
 	}
 ];
 
@@ -17658,7 +17668,8 @@ let ru_2010_f = [
 	{
 		pack : RU_2010_F_PACK_1,
 		group : 'Елена Ваенга',
-		song : "Шопен"
+		song : "Шопен",
+		ignore : true
 	},
 	{
 		pack : RU_2010_F_PACK_1,
