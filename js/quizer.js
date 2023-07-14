@@ -17,6 +17,7 @@ let p2_correct = 0;
 let f_packages = 1;
 let m_packages = 1;
 let gr_packages = 1;
+let hardcore_level = 1;
 let options;
 let skill = '';
 let p1_skill = '';
@@ -44,6 +45,7 @@ let audio;
 let start_count_down = false;
 let rating = [];
 let songs_backup;
+let overall;
 
 function mirror(txt, speed = 20, color){
 $('#mirror_txt').replaceWith( '<marquee id="mirror_txt" class="font text-center align-middle ' + color + '" direction="up" scrolldelay="1" scrollamount="' + speed + '" behavior="slide"><font id="road_text">' + txt + '</font></marquee>' );
@@ -134,6 +136,92 @@ function chooseKaraoke(){
 		}
 	}
 	next();
+}
+
+function chooseHardcore(num){
+	if(audio && audio.paused){
+		audio.play();
+	}
+	toggleGameButton();
+	modeToggle();
+	let guess;
+	if(num){
+		guess = options[num-1];
+	} else {
+		guess = $('#answer_input').val();
+	}
+	let answer = songs[song_count].group;
+	let isCorrect = guess.toUpperCase() == answer.toUpperCase();
+	if(isCorrect){
+		songs[song_count].ignore = true;
+		mirror_eval(answer, 20, "green");
+		correct++;
+		$('#rate').html(rate = '<br/>+ ' + songs[song_count].group + rate);
+	} else {	
+		mirror_eval(answer, 20, "red");
+		if(hardcore_level >= 3) {
+			$('#skill').html(skill = '<br/>- ' + songs[song_count].group + skill);
+		}
+	}
+	next();
+}
+
+function nextHardcore(){
+	if(song_count==songs.length-1){
+		hardcorePrepare();
+		if(hardcore_level <= 3){
+			if(hardcore_level == 2){
+				if(songs.length <= 4){
+					hardcore_level = 3;
+				} else {
+					$('#mirror').show();
+					mirror('Угадай песню КиШа за 5 сек!', 10, 'green');
+					sec_per_turn = 5;
+				}
+			}
+			if(hardcore_level == 3){
+				$('#mirror').show();
+				mirror('Угадай песню КиШа за 10 сек без вариантов ответа!', 10, 'green');
+				sec_per_turn = 10;
+				withoutAnswers = true;
+				$('.answer').hide();
+			}
+		} else {
+			$('#song_count').html(song_count+1);
+			$('#song').css("visibility", "hidden");
+			$('#mirror').show();
+			let percent = calculatePercent(correct,overall);
+			let msg = 'Верно: ' + percent + '%('
+			+ correct + '/' + overall + ').';
+			let color = 'red';
+			if(percent>=65){
+				color = 'green';
+				msg+=finalMessage; 
+			} else{
+				msg+=' Послушайте ещё песенок и попробуйте снова.'
+			}
+			mirror(msg, 20, color);
+			emptyOptions();
+		}
+	} else {
+		$('#song_count').html(++song_count);
+		toggleLearn();
+	}
+}
+
+function hardcorePrepare(){
+	hardcore_level++;
+	song_count=0;
+	songs = songs.filter(song => !song.ignore);
+	if(songs.length == 0){
+		hardcore_level = 4;
+	} else {
+		shuffle(songs);
+		$('#song_count').html(song_count+1);
+		$('#total').html(songs.length);
+		answers = songs.map(item=>item.group);
+		toggleLearn();
+	}
 }
 
 function like(){
@@ -14774,7 +14862,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : 'Банда',
-		song : "Плачут небеса"
+		song : "Плачут небеса",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -14784,7 +14873,8 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_2,
 		group : "Triplex",
-		song : "Бригада"
+		song : "Бригада",
+		ignore : true
 	},
 	{
 		pack : RU_2000_GR_PACK_2,
@@ -18996,11 +19086,6 @@ let ru_kish_gr = [
 		song : "Как в старой сказке"
 	},
 	{
-		id : 105,
-		group : 'Хороший пират — мертвый пират',
-		song : "Бунт на корабле"
-	},
-	{
 		id : 106,
 		group : 'Волосокрад',
 		song : "Жаль, нет ружья"
@@ -21932,9 +22017,9 @@ function showMapping(index, suffix, type){
 	let br = `<br/>`;
 	let hr = `<hr/>`;
 	for(var j=0; j < music[index].packs.length; j++){
-		mapping_result += h1_start + music[index].packs[j].name + h1_end + br;
+		mapping_result += h1_start + music[index].packs[j].name + h1_end;
 		mapping_result += map_songs_format(music[index].packs[j].arr);
-		mapping_result += hr;
+		mapping_result += br + hr;
 	}
 	$('#mapping_content').html(mapping_result);
 }
@@ -21980,12 +22065,15 @@ function generatePathsBySongName(arr, audioPath, imgPath){
 }
 
 function map_songs_format(arr){
-	let h2_start = `<h2>`;
+	arr = arr.filter(song => !song.ignore);
+	let h2_start = `<h2 style='margin-bottom: -20px;'>`;
 	let h2_end = `</h2>`;
-	let h3_start = `<h3 style='font-family: serif;' >`;
+	let h3_start = `<h3 style='font-family: serif; margin-left: 30px;' >`;
 	let h3_end = `</h3>`;
+	let div_start = `<div>`;
+	let div_end = `</div>`;
 	let br = `<br/>`;
-	let img_start = `<img width="300" height="300" src="`;
+	//let img_start = `<img width="300" height="300" src="`;
 	let img_end = `.jpg" />`;
 	let img_play_start = `<img class='pointer onhover' width="30" height="30" src="img/navi/play.png" onclick="playSong('`;
 	let img_play_middle = `')" id='`;
@@ -21993,25 +22081,25 @@ function map_songs_format(arr){
 	let space = '&nbsp;';
 	songs_to_map = arr.sort((a,b) => (a.group > b.group) ? 1 : ((b.group > a.group) ? -1 : 0));
 	let curr_group = songs_to_map[0].group;
-	let result = img_start + songs_to_map[0].imgPath + img_end + br
-		+ h2_start + curr_group + ':' + h2_end;
+	//let result = img_start + songs_to_map[0].imgPath + img_end + br
+	let result = h2_start + curr_group + ':' + h2_end + h3_start;
 	let id;
 	for(let i = 0; i < songs_to_map.length; i++){
 		id = songs_to_map[i].id.replace(' ', '_').replace('(', '').replace(')', '');
 		if(curr_group != songs_to_map[i].group){
 			curr_group = songs_to_map[i].group;
-			result += br + img_start + songs_to_map[i].imgPath + img_end + br
-			+ h2_start + songs_to_map[i].group + ':' + h2_end 
+			result += h3_end + h2_start + songs_to_map[i].group + ':' + h2_end 
 			+ h3_start + songs_to_map[i].song + space
 			+ img_play_start + songs_to_map[i].audioPath + "', '" + id
-			+ img_play_middle + id + img_play_end + h3_end;
+			+ img_play_middle + id + img_play_end + div_end;
 		} else {
-			result += h3_start + songs_to_map[i].song + space
+			result += div_start + songs_to_map[i].song + space
 			+ img_play_start + songs_to_map[i].audioPath + "', '" + id 
 			+ img_play_middle + id + img_play_end
-			+ h3_end;
+			+ div_end;
 		}
 	}
+	result += h3_end;
 	return result;
 }
 
@@ -22440,7 +22528,10 @@ function back_to_packages(){
 
 let back = back_to_main;
 let expressMode = false;
-let karaokeMode = false;
+let generateSongs;
+let generateArr;
+let generateAudioPath;
+let generateImgPath;
 		
 function mode(num, album, album_num){
 	$('.mode').hide();
@@ -22751,7 +22842,6 @@ function mode(num, album, album_num){
 		$('#sec_15').hide();
 		$('#h2_status').hide();
 		$('#mirror').show();
-		karaokeMode = true;
 		songs = eval('ru_kish_karaoke_' + album_num);
 		$('#total').html(songs.length);
 		learn = learnKaraoke;
@@ -22778,6 +22868,32 @@ function mode(num, album, album_num){
 		$('#total').html(songs.length);
 		answers = songs.map(item => item.group);
 		shuffle(songs);
+		toggleLearn();
+	}
+	
+	// КиШ Хардкор
+	if(num == 44){
+		$('#back').hide();
+		$('.submode').hide();
+		$('#sec_15').hide();
+		$('#mirror').show();
+		mirror('Угадай песню КиШа за 1 сек!', 10, 'green');
+		year = 'kish';
+		sec_per_turn = 1;
+		$('#learn').html('Угадай песню КиШа');
+		choose = chooseHardcore;
+		next = nextHardcore;
+		generateSongs = generateSongIdsByPaths;
+		generateArr = ru_kish_gr;
+		generateAudioPath = 'audio/ru_kish_gr/';
+		generateImgPath = 'img/ru_kish_gr/avatar/';
+		songs = generateSongIdsByPaths(generateArr, generateAudioPath, generateImgPath);
+		shuffle(songs);
+		//songs = songs.slice(0, 40);
+		answers = songs.map(item=>item.group);
+		overall = songs.length;
+		finalMessage = ' Ура! Вы освоили "КиШа"!';
+		$('#total').html(songs.length);
 		toggleLearn();
 	}
 	
