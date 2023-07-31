@@ -6208,20 +6208,20 @@ let en_1990_minus = [
 ];
 
 const en_2000_gr_icon = [
-	'rock_1',
-	'rock_2',
-	'rock_hard',
-	'womens_vocals',
 	'pop_medium',
-	'pop_hard'
+	'pop_hard',
+	'womens_vocals',
+	'rock_hard',
+	'rock_2',
+	'rock_1'
 ];
 
-const EN_2000_GR_PACK_1 = 1;
-const EN_2000_GR_PACK_2 = 2;
-const EN_2000_GR_PACK_3 = 3;
-const EN_2000_GR_PACK_4 = 4;
-const EN_2000_GR_PACK_5 = 5;
-const EN_2000_GR_PACK_6 = 6;
+const EN_2000_GR_PACK_1 = 6;
+const EN_2000_GR_PACK_2 = 5;
+const EN_2000_GR_PACK_3 = 4;
+const EN_2000_GR_PACK_4 = 3;
+const EN_2000_GR_PACK_5 = 1;
+const EN_2000_GR_PACK_6 = 2;
 
 let en_2000_gr = [
 		{
@@ -7044,7 +7044,8 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_6,
 			group : "Terror Squad",
-			song : "Lean Back"
+			song : "Lean Back",
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_6,
@@ -7054,7 +7055,8 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_4,
 			group : 'Nina Sky',
-			song : 'Move Ya Body'
+			song : 'Move Ya Body',
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_6,
@@ -7139,12 +7141,14 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_6,
 			group : 'Train',
-			song : "Hey, Soul Sister"
+			song : "Hey, Soul Sister",
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_6,
 			group : 'Wheatus',
-			song : "Teenage Dirtbag"
+			song : "Teenage Dirtbag",
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_6,
@@ -7194,7 +7198,8 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_6,
 			group : 'Whizzkids',
-			song : "Rumours (Digi Digi) (ft Inusa, Dawuda)"
+			song : "Rumours (Digi Digi) (ft Inusa, Dawuda)",
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_6,
