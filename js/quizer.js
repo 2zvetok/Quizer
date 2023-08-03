@@ -8993,7 +8993,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Kat Deluna",
-			song : "Run the Show"
+			song : "Run the Show",
+			ignore : true
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -14667,20 +14668,20 @@ let ru_1990_minus = [
 ];
 
 const ru_2000_gr_icon = [
-	'ru_rock',
 	'ru_pop_m_easy',
 	'ru_pop_m_medium',
 	'ru_pop_f',
 	'ru_pop_f_easy',
-	'ru_pop_f_medium'
+	'ru_pop_f_medium',
+	'ru_rock'
 ];
 
-const RU_2000_GR_PACK_1 = 1;
-const RU_2000_GR_PACK_5 = 2;
-const RU_2000_GR_PACK_2 = 3;
-const RU_2000_GR_PACK_3 = 4;
-const RU_2000_GR_PACK_6 = 5;
-const RU_2000_GR_PACK_4 = 6;
+const RU_2000_GR_PACK_1 = 6;
+const RU_2000_GR_PACK_5 = 1;
+const RU_2000_GR_PACK_2 = 2;
+const RU_2000_GR_PACK_3 = 3;
+const RU_2000_GR_PACK_6 = 4;
+const RU_2000_GR_PACK_4 = 5;
 
 
 let ru_2000_gr = [
@@ -15386,8 +15387,7 @@ let ru_2000_gr = [
 	{
 		pack : RU_2000_GR_PACK_4,
 		group : "БандЭрос",
-		song : "Коламбия Пикчерз не представляет",
-		ignore : true
+		song : "Коламбия Пикчерз не представляет"
 	},
 	{
 		pack : RU_2000_GR_PACK_4,
@@ -16047,18 +16047,18 @@ let ru_2000_gr = [
 		song : "Танцы"
 	},
 	{
-		pack : RU_2000_GR_PACK_3,
+		pack : RU_2000_GR_PACK_4,
 		group : 'Катя Чехова',
 		song : "Я — робот"
 	}
 ];
 
-let ru_2000_gr_1 =	ru_2000_gr.filter(item => item.pack == 1);
-let ru_2000_gr_2 =	ru_2000_gr.filter(item => item.pack == 2);
-let ru_2000_gr_3 =	ru_2000_gr.filter(item => item.pack == 3);
-let ru_2000_gr_4 =	ru_2000_gr.filter(item => item.pack == 4);
-let ru_2000_gr_5 =	ru_2000_gr.filter(item => item.pack == 5);
-let ru_2000_gr_6 =	ru_2000_gr.filter(item => item.pack == 6);
+let ru_2000_gr_1 =	ru_2000_gr.filter(item => item.pack == 6);
+let ru_2000_gr_2 =	ru_2000_gr.filter(item => item.pack == 1);
+let ru_2000_gr_3 =	ru_2000_gr.filter(item => item.pack == 2);
+let ru_2000_gr_4 =	ru_2000_gr.filter(item => item.pack == 3);
+let ru_2000_gr_5 =	ru_2000_gr.filter(item => item.pack == 4);
+let ru_2000_gr_6 =	ru_2000_gr.filter(item => item.pack == 5);
 
 const ru_2000_m_icon = [
 	'easy',
@@ -16075,7 +16075,7 @@ let ru_2000_m = [
 		song : "Одна звезда"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дима Билан',
 		song : "На берегу неба"
 	},
@@ -16102,34 +16102,35 @@ let ru_2000_m = [
 		song : "Берёзы (ft Сергей Безруков)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Андрей Губин',
 		song : "Такие девушки как звезды"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Андрей Губин',
 		song : "Танцы"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Валерий Меладзе',
 		song : "Параллельные"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дима Билан',
 		song : "Невозможное возможно"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дима Билан',
 		song : "Мулатка"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Филипп Киркоров',
-		song : "Просто подари"
+		song : "Просто подари",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -16161,10 +16162,11 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Григорий Лепс',
-		song : "Водопадом"
+		song : "Водопадом",
+		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Данко',
 		song : "Малыш"
 	},
@@ -16191,12 +16193,12 @@ let ru_2000_m = [
 		song : "На ладони линия"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Трофимов',
 		song : "Город в пробках"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Денис Майданов',
 		song : "Вечная любовь"
 	},
@@ -16208,7 +16210,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Шура',
-		song : "Осень пришла"
+		song : "Осень пришла",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -16244,22 +16247,22 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Андрей Алексин',
 		song : "Страшная"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Тимати',
 		song : "Не сходи с ума"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
 		song : "Moscow Never Sleeps"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'DJ Дождик',
 		song : "Почему же"
 	},
@@ -16304,7 +16307,7 @@ let ru_2000_m = [
 		song : "Моя Москва"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
 		song : "Забудь"
 	},
@@ -16314,17 +16317,17 @@ let ru_2000_m = [
 		song : "Моя игра"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Юрий Титов',
 		song : "Понарошку"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Зверев',
 		song : "Алла"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Джанго',
 		song : "Холодная весна"
 	},
@@ -16334,32 +16337,32 @@ let ru_2000_m = [
 		song : "Отель"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Айдамир Мугу',
 		song : "Чёрные Глаза"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Паскаль',
 		song : "Шёлковое Сердце"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дмитрий Колдун',
 		song : "Я для тебя"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дмитрий Колдун',
 		song : "Звезда"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дмитрий Колдун',
 		song : "Настройся на меня"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дмитрий Колдун',
 		song : "Work Your Magic"
 	},
@@ -16404,32 +16407,32 @@ let ru_2000_m = [
 		song : "Автобан"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Валерий Меладзе',
 		song : "Небеса"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Валерий Меладзе',
 		song : "Иностранец"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Валерий Меладзе',
 		song : "Вопреки"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дима Билан',
 		song : "Это была любовь"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дима Билан',
 		song : "Changes"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Дима Билан',
 		song : "Я твой номер один"
 	},
@@ -16459,12 +16462,12 @@ let ru_2000_m = [
 		song : "Любовь побеждает время (ft Дмитрий Дибров)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
 		song : "Не бойся"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
 		song : "Запиши мой голос на кассету"
 	},
@@ -16484,7 +16487,7 @@ let ru_2000_m = [
 		song : "Мой бит"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Никита Малинин',
 		song : "Вспышка в ночи"
 	},
@@ -21778,27 +21781,27 @@ let music = [
 		packs: [
 				{
 					arr: en_2000_gr_1,
-					name: 'EN 2000s Groups: Rock#1',
+					name: 'EN 2000s Groups: Pop Medium',
 				},
 				{
 					arr: en_2000_gr_2,
-					name: 'EN 2000s Groups: Rock#2',
+					name: 'EN 2000s Groups: Pop Hard',
 				},
 				{
 					arr: en_2000_gr_3,
-					name: 'EN 2000s Groups: Rock Hard',
-				},
-				{
-					arr: en_2000_gr_4,
 					name: "EN 2000s Groups: Women's Vocals",
 				},
 				{
+					arr: en_2000_gr_4,
+					name: "EN 2000s Groups: Rock Hard",
+				},
+				{
 					arr: en_2000_gr_5,
-					name: "EN 2000s Groups: Pop Medium",
+					name: "EN 2000s Groups: Rock#2",
 				},
 				{
 					arr: en_2000_gr_6,
-					name: 'EN 2000s Groups: Pop Hard',
+					name: 'EN 2000s Groups: Rock#1',
 				}
 			]
 	},
@@ -22005,10 +22008,6 @@ let music = [
 		type: 'gr',
 		packs: [
 				{
-					arr: ru_2000_gr_1,
-					name: 'RU 2000s Groups: Rock',
-				},
-				{
 					arr: ru_2000_gr_2,
 					name: 'RU 2000s Groups: Easy',
 				},
@@ -22027,6 +22026,10 @@ let music = [
 				{
 					arr: ru_2000_gr_6,
 					name: 'RU 2000s Groups: Pop Women Medium',
+				},
+				{
+					arr: ru_2000_gr_1,
+					name: 'RU 2000s Groups: Rock',
 				}
 			]
 	},
