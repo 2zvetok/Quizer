@@ -3725,17 +3725,20 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Disappear (1990)"
+			song : "Disappear (1990)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "By My Side (1990)"
+			song : "By My Side (1990)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Bitter Tears (1991)"
+			song : "Bitter Tears (1991)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
@@ -3750,22 +3753,26 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "All Around (1992)"
+			song : "All Around (1992)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Baby Dont Cry (1992)"
+			song : "Baby Dont Cry (1992)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "The Strangest Party (1994)"
+			song : "The Strangest Party (1994)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'INXS',
-			song : "Deliver Me (1993)"
+			song : "Deliver Me (1993)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_GR_PACK_2,
@@ -21709,31 +21716,39 @@ let music = [
 		packs: [
 				{
 					arr: en_1990_gr_1,
-					name: 'EN 1990s Groups: Rock Medium',
+					name: 'EN 1990s Groups: Rock Medium'
 				},
 				{
 					arr: en_1990_gr_2,
-					name: 'EN 1990s Groups: Rock Hard',
+					name: 'EN 1990s Groups: Rock Hard'
 				},
 				{
 					arr: en_1990_gr_3,
-					name: 'EN 1990s Groups: Pop Medium',
+					name: 'EN 1990s Groups: Rock Very Hard'
 				},
 				{
 					arr: en_1990_gr_4,
-					name: 'EN 1990s Groups: Pop Hard',
+					name: 'EN 1990s Groups: Pop Medium'
 				},
 				{
 					arr: en_1990_gr_5,
-					name: "EN 1990s Groups: Pop Very Hard",
+					name: 'EN 1990s Groups: Pop Hard'
 				},
 				{
 					arr: en_1990_gr_6,
-					name: "EN 1990s Groups: Women's Vocals",
+					name: "EN 1990s Groups: Pop Very Hard"
 				},
 				{
 					arr: en_1990_gr_7,
-					name: 'EN 1990s Groups: Eurodance',
+					name: "EN 1990s Groups: Women's Vocals"
+				},
+				{
+					arr: en_1990_gr_8,
+					name: "EN 1990s Groups: Women's Vocals 2"
+				},
+				{
+					arr: en_1990_gr_9,
+					name: 'EN 1990s Groups: Eurodance'
 				}
 			]
 	},
