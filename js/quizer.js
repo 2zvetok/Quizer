@@ -5715,7 +5715,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Lisa Loeb',
-			song : "Stay"
+			song : "Stay",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -5740,22 +5741,26 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Natalia Oreiro',
-			song : "Que Si, Que Si"
+			song : "Que Si, Que Si",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Natalia Oreiro',
-			song : "De Tu Amor"
+			song : "De Tu Amor",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Natalia Oreiro',
-			song : "Cambio Dolor"
+			song : "Cambio Dolor",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Natalia Oreiro',
-			song : "Me Muero De Amor"
+			song : "Me Muero De Amor",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -5770,7 +5775,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Dido',
-			song : "Thank You"
+			song : "Thank You",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -5785,12 +5791,14 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Cher',
-			song : "Believe"
+			song : "Believe",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Britney Spears',
-			song : "...Baby One More Time"
+			song : "...Baby One More Time",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -5805,7 +5813,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Brandy',
-			song : "The Boy Is Mine (ft Monica)"
+			song : "The Boy Is Mine (ft Monica)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -5815,7 +5824,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Cesaria Evora',
-			song : "Besame Mucho"
+			song : "Besame Mucho",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -6040,12 +6050,14 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Annie Lennox',
-			song : "Why"
+			song : "Why",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Annie Lennox',
-			song : "Love Song for a Vampire"
+			song : "Love Song for a Vampire",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_1,
@@ -6055,7 +6067,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Annie Lennox',
-			song : "A Whiter Shade of Pale"
+			song : "A Whiter Shade of Pale",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_1,
@@ -6065,7 +6078,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Geri Halliwell',
-			song : "Look At Me"
+			song : "Look At Me",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_1,
@@ -6113,7 +6127,7 @@ let en_1990_f = [
 			song : "Sitting Down Here"
 		},
 		{
-			pack : EN_1990_F_PACK_1,
+			pack : EN_1990_F_PACK_2,
 			group : 'Diana Ross',
 			song : "When You Tell Me That You Love Me"
 		},
