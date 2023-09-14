@@ -69,13 +69,14 @@ function choose(num){
 	}
 	modeToggle();
 	let group = songs[song_count].group;
+	let song = songs[song_count].song;
 	if(answer.toUpperCase() == songs[song_count].group.toUpperCase()){
 		mirror_eval(rightAnswer(), 20, "green");
 		$("#option_" + num).addClass("green");
 		if(isSingle){
 			correct++;
 			if (!~rate.indexOf('+ ' + group)){
-				$('#rate').html(rate = '+ ' + group + '<br/>' + rate);
+				$('#rate').html(rate = '<br/>+ ' + group + rate);
 			}
 		} else if(isP1Turn){
 			p1_correct++;
@@ -91,7 +92,7 @@ function choose(num){
 			$('#mistakes').html(--mistakes);
 		}
 		if(isSingle){
-			$('#skill').html(skill = '<br/>- ' + group + skill);
+			$('#skill').html(skill = '<br/>- ' + group + '<br/>"' + song + '"' + skill);
 		} else {
 			if(isP1Turn){
 				$('#p1_skill').html(p1_skill+='<br/>' + songs[song_count].group + ',');
@@ -5212,7 +5213,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Alex Christensen',
-			song : "Du hast den schönsten Arsch der Welt"
+			song : "Du hast den schönsten Arsch der Welt",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -5227,12 +5229,14 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Scatman John',
-			song : "Scatman"
+			song : "Scatman",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Scatman John',
-			song : "Scatman's World"
+			song : "Scatman's World",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -5297,7 +5301,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Lou Bega',
-			song : "Mamba 5"
+			song : "Mamba 5",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -5322,7 +5327,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Adriano Celentano',
-			song : "Angel"
+			song : "Angel",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -5494,22 +5500,26 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Moby',
-			song : "Go"
+			song : "Go",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Moby',
-			song : "Move"
+			song : "Move",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Moby',
-			song : "James Bond Theme"
+			song : "James Bond Theme",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Moby',
-			song : "Why Does My Heart Feel So Bad?"
+			song : "Why Does My Heart Feel So Bad?",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -5645,6 +5655,16 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_1,
 			group : 'E-Type',
 			song : "Do You Always (Have To Be Alone)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Lenny Kravitz',
+			song : "Believe"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Lenny Kravitz',
+			song : "American Woman"
 		}
 ];
 
@@ -11682,7 +11702,8 @@ let ru_1990_gr = [
 			group : 'Иванушки International',
 			song : 'Кукла',
 			state: ' по Иванушкам',
-			shorten: 'Иванушки'
+			shorten: 'Иванушки',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_5,
@@ -11779,7 +11800,8 @@ let ru_1990_gr = [
 			group : 'Иванушки International',
 			song : 'Колечко',
 			state: ' по Иванушкам',
-			shorten: 'Иванушки'
+			shorten: 'Иванушки',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_1,
@@ -11994,7 +12016,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_2,
 			group : 'ЛаМанш',
-			song : 'Погляд'
+			song : 'Погляд',
+			ignore : true 
 		},
 		{
 			pack : RU_1990_GR_PACK_2,
@@ -12384,12 +12407,12 @@ let ru_1990_gr = [
 			song : 'Вовочка'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Несчастный Случай',
 			song : 'Генералы песчаных карьеров'		
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Несчастный Случай',
 			song : 'Что ты имела в виду'		
 		},
@@ -12479,44 +12502,49 @@ let ru_1990_gr = [
 			song : 'Катманду'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Любэ',
-			song : 'Дорога'
+			song : 'Дорога',
+			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Любэ',
 			song : 'Ты неси меня, река'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Любэ',
-			song : 'Комбат'
+			song : 'Комбат',
+			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Любэ',
-			song : 'Солдат'
+			song : 'Солдат',
+			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Любэ',
-			song : 'Атас'
+			song : 'Атас',
+			ignore : true
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Любэ',
 			song : 'Там, за туманами'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Любэ',
 			song : 'Позови меня тихо по имени'
 		},
 		{
-			pack : RU_1990_GR_PACK_4,
+			pack : RU_1990_GR_PACK_1,
 			group : 'Любэ',
-			song : 'Конь'
+			song : 'Конь',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -12586,7 +12614,8 @@ let ru_1990_gr = [
 		{
 			pack : RU_1990_GR_PACK_4,
 			group : 'Господин Дадуда',
-			song : 'Даду Внедреж'
+			song : 'Даду Внедреж',
+			ignore : true
 		},
 		{
 			pack : RU_1990_GR_PACK_4,
@@ -12727,6 +12756,21 @@ let ru_1990_gr = [
 			pack : RU_1990_GR_PACK_1,
 			group : 'Иванушки International',
 			song : 'Малина',
+		},
+		{
+			pack : RU_1990_GR_PACK_1,
+			group : 'Белый Орел',
+			song : 'Как упоительны в России вечера'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Bad Balance',
+			song : 'Как сон'
+		},
+		{
+			pack : RU_1990_GR_PACK_4,
+			group : 'Серьга',
+			song : 'А что нам надо'
 		}
 ];
 
@@ -12784,7 +12828,8 @@ let ru_1990_m = [
 			group : "Роман Жуков",
 			song : 'Млечный путь',
 			state: " по Жукову",
-			shorten: 'Жуков'
+			shorten: 'Жуков',
+			ignore : true
 		},
 		{
 			pack : RU_1990_M_PACK_1,
@@ -12948,12 +12993,14 @@ let ru_1990_m = [
 		{
 			pack : RU_1990_M_PACK_2,
 			group : 'Ефрем Амиратов',
-			song : 'Молодая'
+			song : 'Молодая',
+			ignore : true
 		},
 		{
 			pack : RU_1990_M_PACK_2,
 			group : 'Роман Жуков',
-			song : 'Фея'
+			song : 'Фея',
+			ignore : true
 		},
 		{
 			pack : RU_1990_M_PACK_2,
@@ -12973,12 +13020,14 @@ let ru_1990_m = [
 		{
 			pack : RU_1990_M_PACK_2,
 			group : 'Роман Жуков',
-			song : 'Первый снег'
+			song : 'Первый снег',
+			ignore : true
 		},
 		{
 			pack : RU_1990_M_PACK_2,
 			group : 'Роман Жуков',
-			song : 'Я люблю вас, девочки'
+			song : 'Я люблю вас, девочки',
+			ignore : true
 		},
 		{
 			pack : RU_1990_M_PACK_2,
@@ -13213,7 +13262,8 @@ let ru_1990_m = [
 		{
 			pack : RU_1990_M_PACK_1,
 			group : 'Михаил Боярский',
-			song : 'Спасибо родная'
+			song : 'Спасибо родная',
+			ignore : true
 		},
 		{
 			pack : RU_1990_M_PACK_1,
@@ -13357,13 +13407,13 @@ let ru_1990_m = [
 		},
 		{
 			pack : RU_1990_M_PACK_3,
-			group : 'Николай Трубач',
-			song : 'Голубая луна (ft Борис Моисеев)'
+			group : 'Борис Моисеев',
+			song : 'Голубая луна (ft Николай Трубач)'
 		},
 		{
 			pack : RU_1990_M_PACK_3,
-			group : 'Николай Трубач',
-			song : 'Щелкунчик (ft Борис Моисеев)'
+			group : 'Борис Моисеев',
+			song : 'Щелкунчик (ft Николай Трубач)'
 		},
 		{
 			pack : RU_1990_M_PACK_3,
@@ -13704,6 +13754,11 @@ let ru_1990_m = [
 			pack : RU_1980_M_PACK_2,
 			group : 'Александр Барыкин',
 			song : "За той рекой"
+		},
+		{
+			pack : RU_1990_M_PACK_1,
+			group : 'Евгений Осин',
+			song : 'Качка'
 		}
 ];
 
@@ -13814,7 +13869,8 @@ let ru_1990_f = [
 			group : "Лайма Вайкуле",
 			song : 'Ещё не вечер',
 			state: " по Лайме Вайкуле",
-			shorten: 'Вайкуле'
+			shorten: 'Вайкуле',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -14327,42 +14383,50 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Я останусь с тобой'
+			song : 'Я останусь с тобой',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Клава'
+			song : 'Клава',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Тараканы'
+			song : 'Тараканы',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Белый мерседес'
+			song : 'Белый мерседес',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Шарманщик'
+			song : 'Шарманщик',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Беспутная'
+			song : 'Беспутная',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Ах, Одесса!..'
+			song : 'Ах, Одесса!..',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Хулиганчики'
+			song : 'Хулиганчики',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -14377,7 +14441,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Платье из роз'
+			song : 'Платье из роз',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
