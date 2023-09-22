@@ -6184,7 +6184,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_1,
 			group : 'Kylie Minogue',
-			song : "Spinning Around"
+			song : "Spinning Around",
+			ignore : true
 		},
 		{
 			pack : EN_1990_F_PACK_1,
@@ -6288,12 +6289,14 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_1,
 			group : 'Green Day',
-			song : 'The Simpsons Theme'
+			song : 'The Simpsons Theme',
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_1,
 			group : 'Green Day',
-			song : 'Know Your Enemy'
+			song : 'Know Your Enemy',
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_1,
@@ -6308,12 +6311,14 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_1,
 			group : 'Offspring',
-			song : "Million Miles Away"
+			song : "Million Miles Away",
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_1,
 			group : 'Offspring',
-			song : "Defy You"
+			song : "Defy You",
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_1,
@@ -6328,12 +6333,14 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_1,
 			group : 'Offspring',
-			song : "Can't Repeat"
+			song : "Can't Repeat",
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_1,
 			group : 'Offspring',
-			song : "Hammerhead"
+			song : "Hammerhead",
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_1,
@@ -6388,7 +6395,8 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_2,
 			group : 'Red Hot Chili Peppers',
-			song : 'Otherside'
+			song : 'Otherside',
+			ignore : true
 		},	
 		{
 			pack : EN_2000_GR_PACK_2,
@@ -6413,7 +6421,8 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_2,
 			group : "Linkin Park",
-			song : 'Numb'
+			song : 'Numb',
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_2,
@@ -6458,7 +6467,8 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_2,
 			group : 'Red Hot Chili Peppers',
-			song : 'Fortune Faded'
+			song : 'Fortune Faded',
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_2,
@@ -6478,12 +6488,14 @@ let en_2000_gr = [
 		{
 			pack : EN_2000_GR_PACK_2,
 			group : 'Red Hot Chili Peppers',
-			song : 'Desecration Smile'
+			song : 'Desecration Smile',
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_2,
 			group : 'Red Hot Chili Peppers',
-			song : 'Hump de Bump'
+			song : 'Hump de Bump',
+			ignore : true
 		},
 		{
 			pack : EN_2000_GR_PACK_2,
@@ -8583,12 +8595,14 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Kelis",
-			song : "Milkshake"
+			song : "Milkshake",
+			year : 2003
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Kelis",
-			song : "Trick Me"
+			song : "Trick Me",
+			year : 2004
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -9046,6 +9060,12 @@ let en_2000_f = [
 			pack : EN_2000_F_PACK_2,
 			group : "Emma Bunton",
 			song : "What Took You So Long"
+		},
+		{
+			pack : EN_2000_F_PACK_2,
+			group : "Kelis",
+			song : "Bossy (ft Too Short)",
+			year : 2006
 		}
 ];
 
@@ -16420,7 +16440,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Никита',
-		song : "Отель"
+		song : "Отель",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -16538,12 +16559,12 @@ let ru_2000_m = [
 		song : "Улетаю"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
 		song : "Волна (ft Fast Food, Люды Соколовой и Павла «Снежка» Воли)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
 		song : "Любовь побеждает время (ft Дмитрий Дибров)"
 	},
