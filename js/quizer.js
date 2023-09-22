@@ -16657,7 +16657,8 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Надежда Кадышева',
-		song : "Широка река (ft. Антон Зацепин)"
+		song : "Широка река (ft. Антон Зацепин)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
@@ -16739,17 +16740,20 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Катя Лель',
-		song : "Мой мармеладный"
+		song : "Мой мармеладный",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Катя Лель',
-		song : "Долетай"
+		song : "Долетай",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Катя Лель',
-		song : "Муси-пуси"
+		song : "Муси-пуси",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -16759,12 +16763,14 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Юлия Савичева',
-		song : "Если в сердце живет любовь"
+		song : "Если в сердце живет любовь",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Юлия Савичева',
-		song : "Привет"
+		song : "Привет",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -16882,12 +16888,14 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Анжелика Варум',
-		song : "Не жди меня"
+		song : "Не жди меня",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Анжелика Варум',
-		song : "Стоп, любопытство"
+		song : "Стоп, любопытство",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_1,
@@ -17019,7 +17027,8 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_1,
 		group : "Глюкоза",
-		song : "Невеста"
+		song : "Невеста",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
@@ -17175,6 +17184,11 @@ let ru_2000_f = [
 		pack : RU_2000_F_PACK_1,
 		group : 'Валерия',
 		song : "Маленький самолёт"
+	},
+	{
+		pack : RU_2000_F_PACK_1,
+		group : 'Валерия',
+		song : "Ключики"
 	},
 	{
 		pack : RU_2000_F_PACK_1,
@@ -18516,8 +18530,7 @@ let ru_clips = [
 		{
 			id : 4,
 			group : 'Анжелика Варум',
-			song : 'Анжелика Варум "Художник, что рисует дождь"',
-			state: ' по Варум'
+			song : 'Анжелика Варум "Художник, что рисует дождь"'
 		},
 		{
 			id : 5,
