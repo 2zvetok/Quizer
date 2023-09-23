@@ -70,8 +70,14 @@ function choose(num){
 	modeToggle();
 	let group = songs[song_count].group;
 	let song = songs[song_count].song;
+	let song_year = songs[song_count].year;
+	if(!song_year) {
+		song_year = '';
+	} else {
+		song_year = ' (' + song_year + ')';
+	}
 	if(answer.toUpperCase() == songs[song_count].group.toUpperCase()){
-		mirror_eval(rightAnswer(), 20, "green");
+		mirror_eval(rightAnswer(song_year), 20, "green");
 		$("#option_" + num).addClass("green");
 		if(isSingle){
 			correct++;
@@ -86,13 +92,13 @@ function choose(num){
 		$('#score').html(++score);
 		levelup();
 	} else {
-		mirror_eval(rightAnswer(), 20, "red");
+		mirror_eval(rightAnswer(song_year), 20, "red");
 		$("#option_" + num).addClass("red");
 		if(isTournement){
 			$('#mistakes').html(--mistakes);
 		}
 		if(isSingle){
-			$('#skill').html(skill = '<br/>- ' + group + '<br/>"' + song + '"' + skill);
+			$('#skill').html(skill = '<br/>- ' + group + '<br/>"' + song + '"' + song_year + skill);
 		} else {
 			if(isP1Turn){
 				$('#p1_skill').html(p1_skill+='<br/>' + songs[song_count].group + ',');
@@ -249,8 +255,8 @@ function rightAnswer_EN(){
 	return songs[song_count].song;
 }
 
-function rightAnswer_RU(){
-	return songs[song_count].group + ' "' + songs[song_count].song + '"';
+function rightAnswer_RU(year){
+	return songs[song_count].group + ' "' + songs[song_count].song + '"' + year;
 }
 
 function next(){
@@ -3196,12 +3202,14 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Hole In My Soul (1997)"
+			song : "Hole In My Soul",
+			year : 1997
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Aerosmith',
-			song : "Pink (1997)"
+			song : "Pink",
+			year : 1997
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -3212,122 +3220,146 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Longview (1994)"
+			song : "Longview)",
+			year : 1994
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Basket Case (1994)"
+			song : "Basket Case",
+			year : 1994
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "When I Come Around (1995)"
+			song : "When I Come Around",
+			year : 1995
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "J.A.R. (1995)"
+			song : "J.A.R.",
+			year : 1995
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Brain Stew (1996)"
+			song : "Brain Stew",
+			year : 1996
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Good Riddance (1997)"
+			song : "Good Riddance",
+			year : 1997
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Redundant (1998)"
+			song : "Redundant",
+			year : 1998
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Minority (2000)"
+			song : "Minority",
+			year : 2000
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Warning (2000)"
+			song : "Warning",
+			year : 2000
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Green Day',
-			song : "Hitchin' A Ride (1997)"
+			song : "Hitchin' A Ride",
+			year : 1997
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Why Don't You Get A Job (1998)"
+			song : "Why Don't You Get A Job",
+			year : 1998
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "The Kids Aren't Alright (1999)"
+			song : "The Kids Aren't Alright",
+			year : 1999
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Original Prankster (2000)"
+			song : "Original Prankster",
+			year : 2000
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Come Out and Play (1994)"
+			song : "Come Out and Play",
+			year : 1994
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Self Esteem (1994)"
+			song : "Self Esteem",
+			year : 1994
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "All I Want (1997)"
+			song : "All I Want",
+			year : 1997
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Gone Away (1997)"
+			song : "Gone Away",
+			year : 1997
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'Offspring',
-			song : "Pretty Fly (1998)"
+			song : "Pretty Fly",
+			year : 1998
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "You Could Be Mine (1991)"
+			song : "You Could Be Mine",
+			year : 1991
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "Don't Cry (1991)"
+			song : "Don't Cry",
+			year : 1991
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "November Rain (1991)"
+			song : "November Rain",
+			year : 1991
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "Knockin' On Heaven's Door (1991)"
+			song : "Knockin' On Heaven's Door",
+			year : 1991
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : "Guns N Roses",
-			song : "Sympathy For The Devil (1994)"
+			song : "Sympathy For The Devil",
+			year : 1994
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
 			group : 'ACDC',
-			song : "Thunderstuck (1990)"
+			song : "Thunderstuck",
+			year : 1990
 		},
 		{
 			pack : EN_1990_GR_PACK_1,
@@ -5015,7 +5047,8 @@ let en_1990_gr = [
 		{
 			pack : EN_1990_GR_PACK_7,
 			group : 'Chemical Brothers',
-			song : "Hey Boy Hey Girl (1999)"
+			song : "Hey Boy Hey Girl",
+			year : 1999
 		}
 ];
 
@@ -8322,102 +8355,122 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
-			song : 'I Kissed A Girl'
+			song : 'I Kissed A Girl',
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Lady Gaga',
-			song : 'Poker Face'
+			song : 'Poker Face',
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Britney Spears',
-			song : 'Womanizer'
+			song : 'Womanizer',
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Pink',
-			song : 'So What'
+			song : 'So What',
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Britney Spears',
-			song : 'Ooops!... I did it again'
+			song : 'Ooops!... I did it again',
+			year : 2000
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
-			song : "Lady Marmalade (ft Pink, Mya, Lil' Kim)"
+			song : "Lady Marmalade (ft Pink, Mya, Lil' Kim)",
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
-			song : 'Whenever, Wherever'
+			song : 'Whenever, Wherever',
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
-			song : 'Beautiful'
+			song : 'Beautiful',
+			year : 2002
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
-			song : 'Complicated'
+			song : 'Complicated',
+			year : 2002
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Britney Spears',
-			song : 'Toxic'
+			song : 'Toxic',
+			year : 2004
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
-			song : "Hips Don't Lie"
+			song : "Hips Don't Lie",
+			year : 2006
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
-			song : 'Girlfriend'
+			song : 'Girlfriend',
+			year : 2007
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Taylor Swift",
-			song : 'Love Story'
+			song : 'Love Story',
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Lady Gaga",
-			song : "Just Dance (ft Colby ODonis)"
+			song : "Just Dance (ft Colby ODonis)",
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
-			song : "California Gurls (ft. Snoop Dogg)"
+			song : "California Gurls (ft. Snoop Dogg)",
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
-			song : "Teenage Dream"
+			song : "Teenage Dream",
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
-			song : "Firework"
+			song : "Firework",
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
-			song : "Hot N Cold"
+			song : "Hot N Cold",
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Katy Perry',
-			song : "Waking Up In Vegas"
+			song : "Waking Up In Vegas",
+			year : 2009
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Taylor Swift",
-			song : 'You Belong With Me'
+			song : 'You Belong With Me',
+			year : 2009
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -8432,71 +8485,85 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Lady Gaga',
-			song : "Telephone (ft. Beyonce)"
+			song : "Telephone (ft. Beyonce)",
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
-			song : 'Come on over Baby (All I Want Is You)'
+			song : 'Come on over Baby (All I Want Is You)',
+			year : 2000
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
-			song : 'Hurt'
+			song : 'Hurt',
+			year : 2006
 		},
 		{
 			group : "Inna",
-			song : 'Hot'
-		},
-		{
-			pack : EN_2000_F_PACK_1,
-			group : "Inna",
-			song : 'Amazing'
+			song : 'Hot',
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Inna",
-			song : 'Sun Is Up'
+			song : 'Amazing',
+			year : 2009
+		},
+		{
+			pack : EN_2000_F_PACK_1,
+			group : "Inna",
+			song : 'Sun Is Up',
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Pink',
-			song : 'Get the Party Started'
+			song : 'Get the Party Started',
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Pink',
-			song : 'Trouble'
+			song : 'Trouble',
+			year : 2003
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Lady Gaga',
-			song : "Bad Romance"
+			song : "Bad Romance",
+			year : 2009
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : 'Britney Spears',
-			song : 'Gimme More'
+			song : 'Gimme More',
+			year : 2007
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
-			song : 'Underneath Your Clothes'
+			song : 'Underneath Your Clothes',
+			year : 2002
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
-			song : 'Objection (Tango)'
+			song : 'Objection (Tango)',
+			year : 2002
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
-			song : 'La Tortura (ft Alejandro Sanz)'
+			song : 'La Tortura (ft Alejandro Sanz)',
+			year : 2005
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Shakira",
-			song : 'Waka Waka (This Time for Africa) (ft Freshlyground)'
+			song : 'Waka Waka (This Time for Africa) (ft Freshlyground)',
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -8507,12 +8574,14 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
-			song : 'My Happy Ending'
+			song : 'My Happy Ending',
+			year : 2004
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
-			song : "Nobody's Home"
+			song : "Nobody's Home",
+			year : 2004
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -8529,7 +8598,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
-			song : 'Hot'
+			song : 'Hot',
+			year : 2007
 		},
 		{
 			pack : EN_2000_F_PACK_1,
@@ -8540,37 +8610,44 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Avril Lavigne",
-			song : 'Alice'
+			song : 'Alice',
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Jennifer Lopez",
-			song : "Ain't It Funny"
+			song : "Ain't It Funny",
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Jennifer Lopez",
-			song : "I'm Real (ft Ja Rule)"
+			song : "I'm Real (ft Ja Rule)",
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Jennifer Lopez",
-			song : "All I Have (ft LL Cool J)"
+			song : "All I Have (ft LL Cool J)",
+			year : 2002
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Jennifer Lopez",
-			song : "Love Don't Cost a Thing"
+			song : "Love Don't Cost a Thing",
+			year : 2000
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Jennifer Lopez",
-			song : "Jenny from the Block"
+			song : "Jenny from the Block",
+			year : 2002
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Mary J. Blige",
-			song : 'Family Affair'
+			song : 'Family Affair',
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -8627,72 +8704,86 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Madonna',
-			song : "Music"
+			song : "Music",
+			year : 2000
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Madonna',
-			song : "Hung Up"
+			song : "Hung Up",
+			year : 2005
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Madonna',
-			song : "4 minutes"
+			song : "4 minutes (ft Justin Timberlake & Timbaland)",
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kelly Clarkson',
-			song : "Because of You"
+			song : "Because of You",
+			year : 2005
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kelly Clarkson',
-			song : "A Moment Like This"
+			song : "A Moment Like This",
+			year : 2002
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kelly Clarkson',
-			song : "My Life Would Suck Without You"
+			song : "My Life Would Suck Without You",
+			year : 2009
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Geri Halliwell',
-			song : "Calling"
+			song : "Calling",
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kesha',
-			song : 'Tick Tock'
+			song : 'Tick Tock',
+			year : 2009
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Dido',
-			song : 'Thank You'
+			song : 'Thank You',
+			year : 2000
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Dido',
-			song : 'White Flag'
+			song : 'White Flag',
+			year : 2003
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kylie Minogue',
-			song : 'Spinning Around'
+			song : 'Spinning Around',
+			year : 2000
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Kylie Minogue',
-			song : "Can't Get You Out of My Head"
+			song : "Can't Get You Out of My Head",
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Mariah Carey',
-			song : 'We Belong Together'
+			song : 'We Belong Together',
+			year : 2005
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Mariah Carey',
-			song : 'Touch My Body'
+			song : 'Touch My Body',
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -8703,17 +8794,20 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Ashanti',
-			song : 'Foolish'
+			song : 'Foolish',
+			year : 2002
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'LeAnn Rimes',
-			song : "Can't Fight The Moonlight"
+			song : "Can't Fight The Moonlight",
+			year : 2000
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Amy McDonald',
-			song : 'This Is The Life'
+			song : 'This Is The Life',
+			year : 2007
 		},
 		{
 			pack : EN_2000_F_PACK_3,
@@ -8730,7 +8824,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Myriam Faris',
-			song : 'Chamarni (Enta bel hayat)'
+			song : 'Chamarni (Enta bel hayat)',
+			year : 2003
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -8741,22 +8836,26 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'September',
-			song : 'Cry For You'
+			song : 'Cry For You',
+			year : 2006
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Enya',
-			song : 'And Winter Came'
+			song : 'And Winter Came',
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : 'Oceana',
-			song : 'Cry cry'
+			song : 'Cry cry',
+			year : 2009
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : 'Crazy In Love (ft Jay-Z)'
+			song : 'Crazy In Love (ft Jay-Z)',
+			year : 2003
 		},
 		{
 			pack : EN_2000_F_PACK_3,
@@ -8766,7 +8865,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : "Beautiful Lier (ft Shakira)"
+			song : "Beautiful Lier (ft Shakira)",
+			year : 2007
 		},
 		{
 			pack : EN_2000_F_PACK_3,
@@ -8776,7 +8876,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : "Single Ladies"
+			song : "Single Ladies",
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_3,
@@ -8791,17 +8892,20 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : "Baby Boy (ft Sean Paul)"
+			song : "Baby Boy (ft Sean Paul)",
+			year : 2003
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : "Halo"
+			song : "Halo",
+			year : 2009
 		},
 		{
 			pack : EN_2000_F_PACK_3,
 			group : "Beyonce",
-			song : "If I Were a Boy"
+			song : "If I Were a Boy",
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_3,
@@ -8996,12 +9100,14 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Lady Gaga",
-			song : "Boys Boys Boys"
+			song : "Boys Boys Boys",
+			year : 2007
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Madonna",
-			song : "Hollywood"
+			song : "Hollywood",
+			year : 2003
 		},
 		{
 			pack : EN_2000_F_PACK_3,
@@ -9016,17 +9122,20 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
-			song : 'Candy Man'
+			song : 'Candyman',
+			year : 2007
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
-			song : 'Fighter'
+			song : 'Fighter',
+			year : 2003
 		},
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Christina Aguilera",
-			song : "Keeps Gettin' Better"
+			song : "Keeps Gettin' Better",
+			year : 2008
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -9043,7 +9152,8 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Selena Gomez",
-			song : "Who Says"
+			song : "Who Says",
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -9054,12 +9164,14 @@ let en_2000_f = [
 		{
 			pack : EN_2000_F_PACK_1,
 			group : "Lady Gaga",
-			song : "Alejandro"
+			song : "Alejandro",
+			year : 2010
 		},
 		{
 			pack : EN_2000_F_PACK_2,
 			group : "Emma Bunton",
-			song : "What Took You So Long"
+			song : "What Took You So Long",
+			year : 2001
 		},
 		{
 			pack : EN_2000_F_PACK_2,
@@ -16208,17 +16320,17 @@ let ru_2000_m = [
 		song : "Берёзы (ft Сергей Безруков)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Андрей Губин',
 		song : "Такие девушки как звезды"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Андрей Губин',
 		song : "Танцы"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
 		song : "Параллельные"
 	},
@@ -16514,17 +16626,17 @@ let ru_2000_m = [
 		song : "Автобан"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
 		song : "Небеса"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
 		song : "Иностранец"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
 		song : "Вопреки"
 	},
@@ -16637,8 +16749,35 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Леонид Руденко',
-		song : "Everybody",
-		ignore : true
+		song : "Everybody"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Михаил Гребенщиков',
+		song : "Танцы-Обниманцы"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Михаил Гребенщиков',
+		song : "Булки"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Сергей Лазарев',
+		song : "Найди меня",
+		year : 2009
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Сергей Лазарев',
+		song : "Lazerboy (ft Тимати)",
+		year : 2008
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Сергей Лазарев',
+		song : "Вспоминай",
+		year : 2006
 	}
 ];
 
@@ -16903,12 +17042,6 @@ let ru_2000_f = [
 		song : "Все пройдет"
 	},
 	{
-		pack : RU_2000_F_PACK_2,
-		group : 'Катя Чехова',
-		song : "Я — робот",
-		ignore : true
-	},
-	{
 		pack : RU_2000_F_PACK_1,
 		group : 'Максим',
 		song : "Сон"
@@ -17148,7 +17281,8 @@ let ru_2000_f = [
 	{
 		pack : RU_2000_F_PACK_2,
 		group : 'Анастасия Стоцкая',
-		song : "Can't take my eyes off you"
+		song : "Can't take my eyes off you",
+		ignore : true
 	},
 	{
 		pack : RU_2000_F_PACK_2,
