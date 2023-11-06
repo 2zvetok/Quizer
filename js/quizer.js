@@ -5310,6 +5310,54 @@ let en_1990_gr = [
 			group : 'Chemical Brothers',
 			song : "Hey Boy Hey Girl",
 			year : 1999
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Right Said Fred',
+			song : "I'm Too Sexy",
+			year : 1991
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Right Said Fred',
+			song : "I'm Too Sexy",
+			year : 1991
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Maxx',
+			song : "Get A Way",
+			year : 1993
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Maxx',
+			song : "No More (I Can't Stand It)",
+			year : 1994
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'Maxx',
+			song : "You Can Get It",
+			year : 1994
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'U96',
+			song : "Das Boot",
+			year : 1991
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'U96',
+			song : "Love Religion",
+			year : 1994
+		},
+		{
+			pack : EN_1990_GR_PACK_6,
+			group : 'U96',
+			song : "Heaven",
+			year : 1996
 		}
 ];
 
@@ -11552,7 +11600,8 @@ let ru_1980_m = [
 	{
 		pack : RU_1980_M_PACK_2,
 		group : 'Владимир Маркин',
-		song : "Я готов целовать песок"
+		song : "Я готов целовать песок",
+		ignore : true
 	},
 	{
 		pack : RU_1980_M_PACK_1,
@@ -14255,6 +14304,26 @@ let ru_1990_m = [
 			pack : RU_1990_M_PACK_3,
 			group : 'Darude',
 			song : 'Sandstorm'
+		},
+		{
+			pack : RU_1990_M_PACK_2,
+			group : 'Владимир Маркин',
+			song : "Я готов целовать песок"
+		},
+		{
+			pack : RU_1990_M_PACK_2,
+			group : 'Вадим Усланов',
+			song : "Танцы на воде"
+		},
+		{
+			pack : RU_1990_M_PACK_2,
+			group : 'Вадим Усланов',
+			song : "Ты сделана из огня"
+		},
+		{
+			pack : RU_1990_M_PACK_2,
+			group : 'Вадим Усланов',
+			song : "Не улетай"
 		}
 ];
 
