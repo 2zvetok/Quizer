@@ -6047,7 +6047,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Shania Twain',
-			song : "You're Still The One"
+			song : "You're Still The One",
+			year : 1998
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -6057,7 +6058,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Shania Twain',
-			song : "Man! I Feel Like A Woman!"
+			song : "Man! I Feel Like A Woman!",
+			year : 1999
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -6461,7 +6463,8 @@ let en_1990_f = [
 		{
 			pack : EN_1990_F_PACK_2,
 			group : 'Shania Twain',
-			song : "From This Moment On"
+			song : "From This Moment On",
+			year : 1998
 		},
 		{
 			pack : EN_1990_F_PACK_2,
@@ -6558,6 +6561,12 @@ let en_1990_f = [
 			pack : EN_1990_F_PACK_2,
 			group : 'Meja',
 			song : "All 'Bout the Money (1998)"
+		},
+		{
+			pack : EN_1990_F_PACK_2,
+			group : 'Shania Twain',
+			song : "That Don't Impress Me Much",
+			year : 1998
 		}
 ];
 
@@ -10350,6 +10359,30 @@ let en_2010_m = [
 		pack : EN_2010_M_PACK_1,
 		group : 'Kanye West',
 		song : "Bound 2 (2013)"
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Armin van Buuren',
+		song : "This Is What It Feels Like (ft Trevor Guthrie)",
+		year : 2013
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Mr Probz',
+		song : "Waves (rmx Robin Schulz)",
+		year : 2014
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Robin Schulz',
+		song : "Prayer in C (ft Lilly Wood and the Prick)",
+		year : 2014
+	},
+	{
+		pack : EN_2010_M_PACK_1,
+		group : 'Robin Schulz',
+		song : "Sugar (ft Francesco Yates)",
+		year : 2015
 	}
 ];
 
