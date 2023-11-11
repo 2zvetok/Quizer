@@ -5319,12 +5319,6 @@ let en_1990_gr = [
 		},
 		{
 			pack : EN_1990_GR_PACK_6,
-			group : 'Right Said Fred',
-			song : "I'm Too Sexy",
-			year : 1991
-		},
-		{
-			pack : EN_1990_GR_PACK_6,
 			group : 'Maxx',
 			song : "Get A Way",
 			year : 1993
