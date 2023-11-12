@@ -16729,6 +16729,12 @@ let ru_2000_gr = [
 		pack : RU_2000_GR_PACK_4,
 		group : 'Катя Чехова',
 		song : "Я — робот"
+	},
+	{
+		pack : RU_2000_GR_PACK_2,
+		group : "Триада",
+		song : "Дежавю",
+		year : 2005
 	}
 ];
 
